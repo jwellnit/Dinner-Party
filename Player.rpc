@@ -9,10 +9,16 @@
 						{
 							"SELF":
 								{
-									"DialogueState(Derek)": "Initiate, 1",
+									"DialogueState(Mabel)": "Initiate, 1",
+									"DialogueState(Ernest)": "Initiate, 1",
+									"DialogueState(Kimberly)": "Initiate, 1",
+									"DialogueState(Teri)": "Initiate, 1",
+									"DialogueState(Julian)": "Initiate, 1",
+									"DialogueState(Pat)": "Initiate, 1",
+									"DialogueState(Joanne)": "Initiate, 1",
 									"DialogueState(Helen)": "Initiate, 1",
-									"DialogueState(Suzanne)": "Initiate, 1",
-									"DialogueState(Jacob)": "Initiate, 1"
+									"DialogueState(Arnold)": "Initiate, 1",
+									"DialogueState(Hugo)": "Initiate, 1"
 								}
 						}
 				},

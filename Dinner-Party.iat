@@ -2,8 +2,8 @@
 	"root":
 		{
 			"classId": 0,
-			"ScenarioName": "Midyear Demo",
-			"Description": null,
+			"ScenarioName": "Dinner Party",
+			"Description": "Socialize with the guests to your heart's content and see their various responses and reactions.",
 			"WorldModelSource": "DemoWorld.wmo",
 			"CharacterSources": ["Player.rpc", "Derek.rpc"],
 			"Dialogues": [
