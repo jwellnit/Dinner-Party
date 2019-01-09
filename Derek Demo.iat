@@ -1,0 +1,128 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"ScenarioName": "Midyear Demo",
+			"Description": null,
+			"WorldModelSource": "DemoWorld.wmo",
+			"CharacterSources": ["Player.rpc", "Derek.rpc"],
+			"Dialogues": [
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting1",
+					"Meaning": "Greet",
+					"Style": "Polite",
+					"Utterance": "Hi, how are you?",
+					"UtteranceId": "TTS-8658CD9054FCAF676B0B5054191D761B"
+				}, 
+				{
+					"CurrentState": "Greeting2a",
+					"NextState": "Question1",
+					"Meaning": "Greet",
+					"Style": "Neutral",
+					"Utterance": "I'm doing well too, thanks.",
+					"UtteranceId": "TTS-77A23282819E346C83934301483A72C4"
+				}, 
+				{
+					"CurrentState": "Greeting1",
+					"NextState": "Greeting2a",
+					"Meaning": "Greet",
+					"Style": "Polite",
+					"Utterance": "Pretty well, how about you?",
+					"UtteranceId": "TTS-C74AB42137AC54C6ACB4B1BEDCF36659"
+				}, 
+				{
+					"CurrentState": "Greeting1",
+					"NextState": "Greeting2b",
+					"Meaning": "Greet",
+					"Style": "Rude",
+					"Utterance": "I'm fine.",
+					"UtteranceId": "TTS-7BDE882F81F4F720A2CDCFE05C7D94C9"
+				}, 
+				{
+					"CurrentState": "Greeting2b",
+					"NextState": "Question1",
+					"Meaning": "Greet",
+					"Style": "Angery",
+					"Utterance": "Yeah, well I'm great too, thanks for asking.",
+					"UtteranceId": "TTS-1100625BE176A1163C3854A7666AB0D0"
+				}, 
+				{
+					"CurrentState": "Greeting2b",
+					"NextState": "Question1",
+					"Meaning": "Greet",
+					"Style": "Negative",
+					"Utterance": "Um, ok. Well, what's up?",
+					"UtteranceId": "TTS-10CE3FB11EB24EB8525761F0E813574A"
+				}, 
+				{
+					"CurrentState": "Question1",
+					"NextState": "Answer",
+					"Meaning": "Inquire",
+					"Style": "Neutral",
+					"Utterance": "How do you feel about all the changes to the curriculum?",
+					"UtteranceId": "TTS-B6194A3144040906DAF338CBB36122C3"
+				}, 
+				{
+					"CurrentState": "Greeting2a",
+					"NextState": "Question1",
+					"Meaning": "Greet",
+					"Style": "Positive",
+					"Utterance": "Glad to hear it! So, what's up?",
+					"UtteranceId": "TTS-B0E884CBC37008BA8E07BF8B3B3F8B31"
+				}, 
+				{
+					"CurrentState": "Initiate",
+					"NextState": "Start",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Hi.",
+					"UtteranceId": "TTS-09BB880C91380D8A07825F506855C159"
+				}, 
+				{
+					"CurrentState": "Greeting2b",
+					"NextState": "Question1",
+					"Meaning": "Greet",
+					"Style": "Neutral",
+					"Utterance": "Well, what's up?",
+					"UtteranceId": "TTS-CDCCDD662ADD1CC0B7FA3BCD9E62D4B4"
+				}, 
+				{
+					"CurrentState": "Answer",
+					"NextState": "End",
+					"Meaning": "Answer",
+					"Style": "Positive",
+					"Utterance": "I really like it! I'm excited for something new.",
+					"UtteranceId": "TTS-D92D6D658C5FA5B5EE8351E43D0FFA09"
+				}, 
+				{
+					"CurrentState": "Answer",
+					"NextState": "End",
+					"Meaning": "Answer",
+					"Style": "Neutral",
+					"Utterance": "It's ok I guess.",
+					"UtteranceId": "TTS-D3F70533C355CC1CBC98355456019341"
+				}, 
+				{
+					"CurrentState": "End",
+					"NextState": "Start",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Goodbye",
+					"UtteranceId": "TTS-69FAAB6268350295550DE7D587BC323D"
+				}, 
+				{
+					"CurrentState": "Answer",
+					"NextState": "End",
+					"Meaning": "Answer",
+					"Style": "Negative",
+					"Utterance": "I really don't like it. They should just keep with the old curriculum.",
+					"UtteranceId": "TTS-B8405286F274B1C7AA9B580CB6BC096B"
+				}]
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "IntegratedAuthoringTool.IntegratedAuthoringToolAsset, IntegratedAuthoringTool, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

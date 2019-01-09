@@ -1,0 +1,102 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"ActionTendencies": [
+				{
+					"Action": "Speak([cs], *, *, Positive)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Greeting2a = [cs]", "Mood(SELF) > 0.5"]
+						},
+					"Priority": 6
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]"]
+						},
+					"Priority": 4
+				}, 
+				{
+					"Action": "Speak([cs], *, *, Negative)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Greeting2b = [cs]", "Mood(SELF) < -0.5"]
+						},
+					"Priority": 6
+				}, 
+				{
+					"Action": "Speak([cs], *, *, Neutral)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Greeting2a = [cs]", "Mood(SELF) < 0.5"]
+						},
+					"Priority": 6
+				}, 
+				{
+					"Action": "Speak([cs], *, *, Angery)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Greeting2b = [cs]", "StrongestEmotion(SELF) = Reproach"]
+						},
+					"Priority": 7
+				}, 
+				{
+					"Action": "Speak([cs], *, *, Neutral)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Greeting2b = [cs]", "Mood(SELF) > -0.5"]
+						},
+					"Priority": 6
+				}, 
+				{
+					"Action": "Speak([cs], *, *, Positive)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Answer = [cs]", "PersonalityFactor(SELF, Openness) > 25"]
+						},
+					"Priority": 6
+				}, 
+				{
+					"Action": "Speak([cs], *, *, Negative)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Answer = [cs]", "PersonalityFactor(SELF, Openness) < -25"]
+						},
+					"Priority": 6
+				}, 
+				{
+					"Action": "Speak([cs], *, *, Neutral)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Answer = [cs]", "PersonalityFactor(SELF, Openness) > -25", "PersonalityFactor(SELF, Openness) < 25"]
+						},
+					"Priority": 6
+				}]
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "EmotionalDecisionMaking.EmotionalDecisionMakingAsset, EmotionalDecisionMaking, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}
