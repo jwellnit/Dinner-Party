@@ -142,6 +142,46 @@
 							"Set": ["DialogueState(Player) = [cs]", "PersonalityFactor(SELF, Agreeableness) >= 75"]
 						},
 					"Priority": 5
+				}, 
+				{
+					"Action": "Speak([cs], *, DownGreet, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Mood(SELF) < 0"]
+						},
+					"Priority": 3
+				}, 
+				{
+					"Action": "Speak([cs], *, ExcitedGreet, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Relationship(Player) > 0", "Mood(SELF) > 0", "PersonalityFactor(SELF, Extraversion) > 0"]
+						},
+					"Priority": 4
+				}, 
+				{
+					"Action": "Speak([cs], *, WarmGreet, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Relationship(Player) > 0", "Mood(SELF) > 0"]
+						},
+					"Priority": 3
+				}, 
+				{
+					"Action": "Speak([cs], *, ColdGreet, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = [cs]", "Relationship(Player) < 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
+						},
+					"Priority": 4
 				}]
 		},
 	"types": [

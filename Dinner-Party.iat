@@ -9,115 +9,275 @@
 			"Dialogues": [
 				{
 					"CurrentState": "Start",
-					"NextState": "Greeting1",
-					"Meaning": "Greet",
-					"Style": "Polite",
-					"Utterance": "Hi, how are you?",
-					"UtteranceId": "TTS-8658CD9054FCAF676B0B5054191D761B"
+					"NextState": "Home",
+					"Meaning": "WarmGreet",
+					"Style": "-",
+					"Utterance": "Hey, good to see you.",
+					"UtteranceId": "TTS-6475577B077F102107FD240977990C97"
 				}, 
 				{
-					"CurrentState": "Greeting2a",
-					"NextState": "Question1",
-					"Meaning": "Greet",
-					"Style": "Neutral",
-					"Utterance": "I'm doing well too, thanks.",
-					"UtteranceId": "TTS-77A23282819E346C83934301483A72C4"
+					"CurrentState": "Compliment",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "-",
+					"Utterance": "Oh, thanks!",
+					"UtteranceId": "TTS-DC2A6324D7949C53B9B51AC859938483"
 				}, 
 				{
-					"CurrentState": "Greeting1",
-					"NextState": "Greeting2a",
-					"Meaning": "Greet",
-					"Style": "Polite",
-					"Utterance": "Pretty well, how about you?",
-					"UtteranceId": "TTS-C74AB42137AC54C6ACB4B1BEDCF36659"
+					"CurrentState": "Compliment",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "Oh, okay.",
+					"UtteranceId": "TTS-05F0E8D2E209F7D591E4C87F7D3A5521"
 				}, 
 				{
-					"CurrentState": "Greeting1",
-					"NextState": "Greeting2b",
-					"Meaning": "Greet",
-					"Style": "Rude",
-					"Utterance": "I'm fine.",
-					"UtteranceId": "TTS-7BDE882F81F4F720A2CDCFE05C7D94C9"
+					"CurrentState": "Home",
+					"NextState": "Compliment",
+					"Meaning": "Compliment",
+					"Style": "-",
+					"Utterance": "You're really funny.",
+					"UtteranceId": "TTS-FD81548B0BB8FBFCCDA197C82BD42315"
 				}, 
 				{
-					"CurrentState": "Greeting2b",
-					"NextState": "Question1",
-					"Meaning": "Greet",
-					"Style": "Angery",
-					"Utterance": "Yeah, well I'm great too, thanks for asking.",
-					"UtteranceId": "TTS-1100625BE176A1163C3854A7666AB0D0"
+					"CurrentState": "Home",
+					"NextState": "Compliment",
+					"Meaning": "Compliment",
+					"Style": "-",
+					"Utterance": "You're fun to be around.",
+					"UtteranceId": "TTS-06434D5261CDFB4DEF4A514DB3D12C3A"
 				}, 
 				{
-					"CurrentState": "Greeting2b",
-					"NextState": "Question1",
-					"Meaning": "Greet",
-					"Style": "Negative",
-					"Utterance": "Um, ok. Well, what's up?",
-					"UtteranceId": "TTS-10CE3FB11EB24EB8525761F0E813574A"
+					"CurrentState": "Home",
+					"NextState": "Compliment",
+					"Meaning": "Compliment",
+					"Style": "-",
+					"Utterance": "Your hair looks great today.",
+					"UtteranceId": "TTS-D3F5D8A736C6804D7C37CCCD28B0C969"
 				}, 
 				{
-					"CurrentState": "Question1",
-					"NextState": "Answer",
-					"Meaning": "Inquire",
-					"Style": "Neutral",
-					"Utterance": "How do you feel about all the changes to the curriculum?",
-					"UtteranceId": "TTS-B6194A3144040906DAF338CBB36122C3"
+					"CurrentState": "Home",
+					"NextState": "Compliment",
+					"Meaning": "Compliment",
+					"Style": "-",
+					"Utterance": "You look nice tonight.",
+					"UtteranceId": "TTS-8340EA2298D91D553A5D1FD52435AFE6"
 				}, 
 				{
-					"CurrentState": "Greeting2a",
-					"NextState": "Question1",
-					"Meaning": "Greet",
-					"Style": "Positive",
-					"Utterance": "Glad to hear it! So, what's up?",
-					"UtteranceId": "TTS-B0E884CBC37008BA8E07BF8B3B3F8B31"
+					"CurrentState": "Home",
+					"NextState": "Compliment",
+					"Meaning": "Compliment",
+					"Style": "-",
+					"Utterance": "That's a cool shirt.",
+					"UtteranceId": "TTS-ECB7B069F2A169F8E3F48ADD47B5428E"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Home",
+					"Meaning": "WarmGreet",
+					"Style": "-",
+					"Utterance": "Hey, good to see you.",
+					"UtteranceId": "TTS-6475577B077F102107FD240977990C97"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Home",
+					"Meaning": "ColdGreet",
+					"Style": "-",
+					"Utterance": "Oh, it's you.",
+					"UtteranceId": "TTS-C04C1DE87B8A558CBD704E5010FB7885"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Home",
+					"Meaning": "DownGreet",
+					"Style": "-",
+					"Utterance": "Oh, hey.",
+					"UtteranceId": "TTS-ED5A06A3CD039671096F3E2893E00D2B"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "Hey.",
+					"UtteranceId": "TTS-A83E3CE9C182279E7ACCF52F6D313BC9"
+				}, 
+				{
+					"CurrentState": "Compliment",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "-",
+					"Utterance": "Wow! Thank you so much!",
+					"UtteranceId": "TTS-15B40C1F7F0A5FC9A9521B3E76E1B343"
 				}, 
 				{
 					"CurrentState": "Initiate",
 					"NextState": "Start",
 					"Meaning": "-",
 					"Style": "-",
-					"Utterance": "Hi.",
-					"UtteranceId": "TTS-09BB880C91380D8A07825F506855C159"
+					"Utterance": "Hey.",
+					"UtteranceId": "TTS-A83E3CE9C182279E7ACCF52F6D313BC9"
 				}, 
 				{
-					"CurrentState": "Greeting2b",
-					"NextState": "Question1",
-					"Meaning": "Greet",
-					"Style": "Neutral",
-					"Utterance": "Well, what's up?",
-					"UtteranceId": "TTS-CDCCDD662ADD1CC0B7FA3BCD9E62D4B4"
-				}, 
-				{
-					"CurrentState": "Answer",
-					"NextState": "End",
-					"Meaning": "Answer",
-					"Style": "Positive",
-					"Utterance": "I really like it! I'm excited for something new.",
-					"UtteranceId": "TTS-D92D6D658C5FA5B5EE8351E43D0FFA09"
-				}, 
-				{
-					"CurrentState": "Answer",
-					"NextState": "End",
-					"Meaning": "Answer",
-					"Style": "Neutral",
-					"Utterance": "It's ok I guess.",
-					"UtteranceId": "TTS-D3F70533C355CC1CBC98355456019341"
-				}, 
-				{
-					"CurrentState": "End",
-					"NextState": "Start",
-					"Meaning": "-",
+					"CurrentState": "Compliment",
+					"NextState": "Home",
+					"Meaning": "ComplimentPlayer",
 					"Style": "-",
-					"Utterance": "Goodbye",
-					"UtteranceId": "TTS-69FAAB6268350295550DE7D587BC323D"
+					"Utterance": "Thanks! You're really cool too.",
+					"UtteranceId": "TTS-79B6C0CAC425066035055991DA31D2AC"
 				}, 
 				{
-					"CurrentState": "Answer",
-					"NextState": "End",
-					"Meaning": "Answer",
-					"Style": "Negative",
-					"Utterance": "I really don't like it. They should just keep with the old curriculum.",
-					"UtteranceId": "TTS-B8405286F274B1C7AA9B580CB6BC096B"
+					"CurrentState": "Home",
+					"NextState": "Joke",
+					"Meaning": "Joke",
+					"Style": "-",
+					"Utterance": "[Tell a joke]",
+					"UtteranceId": "TTS-27F1B73C5E8A20A22A3B0E5B25BBAFD7"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Insult",
+					"Meaning": "Insult",
+					"Style": "-",
+					"Utterance": "Ugh, I forgot; I don't like talking to you.",
+					"UtteranceId": "TTS-A1E99C6D818E53813DF5A32628E23E84"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Insult",
+					"Meaning": "Insult",
+					"Style": "-",
+					"Utterance": "Wow, you look terrible tonight.",
+					"UtteranceId": "TTS-C326ACAAED2E32B75EA38299A520557F"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Insult",
+					"Meaning": "Insult",
+					"Style": "-",
+					"Utterance": "You know, you're really unpleasant to be around.",
+					"UtteranceId": "TTS-7DD804B2110CC757877B8DB1C67A6A2E"
+				}, 
+				{
+					"CurrentState": "Insult",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "Um, ok then.",
+					"UtteranceId": "TTS-B46A7A6A310DB8A04AA58AFB01248542"
+				}, 
+				{
+					"CurrentState": "Insult",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "-",
+					"Utterance": "Wow, ouch. Whatever.",
+					"UtteranceId": "TTS-5425365BBC01C45E03E8C536343C1944"
+				}, 
+				{
+					"CurrentState": "Insult",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "-",
+					"Utterance": "Pfft, like it matters what you think. Just get away from me.",
+					"UtteranceId": "TTS-A15E3F52DD8EAF0CC4625FAB3F3C17A7"
+				}, 
+				{
+					"CurrentState": "Insult",
+					"NextState": "Home",
+					"Meaning": "InsultPlayer",
+					"Style": "-",
+					"Utterance": "Yeah? Well, I might care what you thought if you weren't already so dull.",
+					"UtteranceId": "TTS-4A43C94854FFC48ACB383448C6106DA2"
+				}, 
+				{
+					"CurrentState": "Joke",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "Huh. Okay.",
+					"UtteranceId": "TTS-B177C50B09D8CC2B94C5258860C5DDF3"
+				}, 
+				{
+					"CurrentState": "Joke",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "-",
+					"Utterance": "That... wasn't that funny.",
+					"UtteranceId": "TTS-2C4B68E4CCD4B5CDE45EED47AC06DC46"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "Tease",
+					"Style": "-",
+					"Utterance": "Oh ha, ha. You know, you don't come out of that story looking too good yourself. [They smile and joke back with you]",
+					"UtteranceId": "TTS-22113C2F7B2E89EA8F1C76BC5CDFB3B8"
+				}, 
+				{
+					"CurrentState": "Joke",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "-",
+					"Utterance": "Hey, that was pretty good!",
+					"UtteranceId": "TTS-D4FF32F402DF069CFE7B8C59144E6B5D"
+				}, 
+				{
+					"CurrentState": "Joke",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "-",
+					"Utterance": "Haha wow! That was really funny!",
+					"UtteranceId": "TTS-8E7A6EF9EDA62E7AC674F972DE8906F0"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Tease",
+					"Meaning": "Tease",
+					"Style": "-",
+					"Utterance": "You remember that one time... [Make a friendly joke at their expense]",
+					"UtteranceId": "TTS-8454D2EFD4D934C98545FE5C2FFF9716"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "-",
+					"Utterance": "Oh ha, ha. That was pretty good, though.",
+					"UtteranceId": "TTS-34643CDA09B92C4873D4035D2F894352"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "[They shrug]",
+					"UtteranceId": "TTS-D68B50BFAFBA2A8DB8029123522B3EE2"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "-",
+					"Utterance": "[They roll their eyes and frown]",
+					"UtteranceId": "TTS-6C5E5A3C8F961A2E054672D077117E22"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "InsultPlayer",
+					"Style": "-",
+					"Utterance": "Oh yeah, well you're a jerk with bad hair.",
+					"UtteranceId": "TTS-89BA76A1994494DC5115662672F9ED85"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "-",
+					"Utterance": "Pfft, whatever.",
+					"UtteranceId": "TTS-AFBC41A8FD26DE9489B443ADF11F1781"
 				}]
 		},
 	"types": [
