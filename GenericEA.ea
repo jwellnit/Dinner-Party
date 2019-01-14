@@ -8,15 +8,6 @@
 					"AppraisalWeight": 1,
 					"Rules": [
 						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, Compliment, *), SELF)",
-							"Conditions":
-								{
-									"Set": []
-								},
-							"Desirability": 5,
-							"Praiseworthiness": 5
-						}, 
-						{
 							"EventName": "Event(Action-End, Player, Speak(*, *, Insult, *), SELF)",
 							"Conditions":
 								{
@@ -125,24 +116,6 @@
 							"Praiseworthiness": 4
 						}, 
 						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, ComplimentAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) < 0"]
-								},
-							"Desirability": -4,
-							"Praiseworthiness": -4
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, ComplimentAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) >= 0"]
-								},
-							"Desirability": 4,
-							"Praiseworthiness": 4
-						}, 
-						{
 							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentLike, [x]), SELF)",
 							"Conditions":
 								{
@@ -153,24 +126,6 @@
 						}, 
 						{
 							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentLike, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) < 0"]
-								},
-							"Desirability": 1,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentCompliment, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) >= 0"]
-								},
-							"Desirability": 4,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentCompliment, [x]), SELF)",
 							"Conditions":
 								{
 									"Set": ["Relationship([x]) < 0"]
@@ -249,6 +204,51 @@
 								},
 							"Desirability": -4,
 							"Praiseworthiness": -4
+						}, 
+						{
+							"EventName": "Event(Action-End, Player, Speak(*, *, Complement, *), SELF)",
+							"Conditions":
+								{
+									"Set": []
+								},
+							"Desirability": 5,
+							"Praiseworthiness": 5
+						}, 
+						{
+							"EventName": "Event(Action-End, Player, Speak(*, *, ComplementAgent, [x]), SELF)",
+							"Conditions":
+								{
+									"Set": ["Relationship([x]) < 0"]
+								},
+							"Desirability": -4,
+							"Praiseworthiness": -4
+						}, 
+						{
+							"EventName": "Event(Action-End, Player, Speak(*, *, ComplementAgent, [x]), SELF)",
+							"Conditions":
+								{
+									"Set": ["Relationship([x]) >= 0"]
+								},
+							"Desirability": 4,
+							"Praiseworthiness": 4
+						}, 
+						{
+							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentComplement, [x]), SELF)",
+							"Conditions":
+								{
+									"Set": ["Relationship([x]) >= 0"]
+								},
+							"Desirability": 4,
+							"Praiseworthiness": 0
+						}, 
+						{
+							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentComplement, [x]), SELF)",
+							"Conditions":
+								{
+									"Set": ["Relationship([x]) < 0"]
+								},
+							"Desirability": 1,
+							"Praiseworthiness": 0
 						}]
 				},
 			"EmotionDispositions": [

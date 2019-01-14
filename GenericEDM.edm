@@ -104,7 +104,7 @@
 					"Priority": 5
 				}, 
 				{
-					"Action": "Speak([cs], *, ComplimentPlayer, *)",
+					"Action": "Speak([cs], *, ComplementPlayer, *)",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
@@ -114,7 +114,7 @@
 					"Priority": 5
 				}, 
 				{
-					"Action": "Speak([cs], *, ComplimentPlayer, *)",
+					"Action": "Speak([cs], *, ComplementPlayer, *)",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
@@ -124,7 +124,7 @@
 					"Priority": 5
 				}, 
 				{
-					"Action": "Speak([cs], *, ComplimentAgent, [x])",
+					"Action": "Speak([cs], *, ComplementAgent, [x])",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
