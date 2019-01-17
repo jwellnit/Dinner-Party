@@ -18,7 +18,7 @@
 									"Relationship(Helen)": "0, 1",
 									"Relationship(Joanne)": "0, 1",
 									"Relationship(Arnold)": "0, 1",
-									"Relationship(Hugo)": "1, 1"
+									"Relationship(Hugo)": "0, 1"
 								}
 						}
 				},

@@ -13,8 +13,8 @@
 								{
 									"Set": []
 								},
-							"Desirability": -5,
-							"Praiseworthiness": -5
+							"Desirability": -7,
+							"Praiseworthiness": -7
 						}, 
 						{
 							"EventName": "Event(Action-End, Player, Speak(*, *, Joke, *), SELF)",
@@ -254,8 +254,8 @@
 			"EmotionDispositions": [
 				{
 					"Emotion": "*",
-					"Decay": 5,
-					"Threshold": 5
+					"Decay": 1,
+					"Threshold": 1
 				}],
 			"Goals": [],
 			"Personality": [0, 0, 0, 0, 0]

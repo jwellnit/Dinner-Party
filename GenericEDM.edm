@@ -12,7 +12,7 @@
 							"Set": ["DialogueState(Player) = [cs]"]
 						},
 					"Priority": 1
-				}, 
+				},
 				{
 					"Action": "Speak([cs], *, Neutral, *)",
 					"Target": "Player",
@@ -22,164 +22,334 @@
 							"Set": ["DialogueState(Player) = [cs]"]
 						},
 					"Priority": 2
-				}, 
+				},
 				{
-					"Action": "Speak([cs], *, MildPositive, *)",
+					"Action": "Speak(AskMood, *, Positive, *)",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
 						{
-							"Set": ["DialogueState(Player) = [cs]", "Mood(SELF) > 0"]
+							"Set": ["DialogueState(Player) = AskMood", "Mood(SELF) > 0"]
 						},
 					"Priority": 3
-				}, 
+				},
 				{
-					"Action": "Speak([cs], *, MildNegative, *)",
+					"Action": "Speak(AskMood, *, Negative, *)",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
 						{
-							"Set": ["DialogueState(Player) = [cs]", "Mood(SELF) < 0"]
+							"Set": ["DialogueState(Player) = AskMood", "Mood(SELF) < 0"]
 						},
 					"Priority": 3
-				}, 
+				},
 				{
-					"Action": "Speak([cs], *, StrongPositive, *)",
+					"Action": "Speak(AskRel, *, Positive, *)",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
 						{
-							"Set": ["DialogueState(Player) = [cs]", "Mood(SELF) > 1"]
+							"Set": ["DialogueState(Player) = AskRel", "Relationship(Player) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRel, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRel", "Relationship(Player) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelArnold, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelArnold", "Relationship(Arnold) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelArnold, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelArnold", "Relationship(Arnold) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelErnest, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelErnest", "Relationship(Ernest) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelErnest, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelErnest", "Relationship(Ernest) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelHelen, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelHelen", "Relationship(Helen) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelHelen, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelHelen", "Relationship(Helen) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelHugo, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelHugo", "Relationship(Hugo) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelHugo, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelHugo", "Relationship(Hugo) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelJoanne, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelJoanne", "Relationship(Joanne) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelJoanne, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelJoanne", "Relationship(Joanne) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelJulian, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelJulian", "Relationship(Julian) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelJulian, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelJulian", "Relationship(Julian) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelKimberly, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelKimberly", "Relationship(Kimberly) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelKimberly, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelKimberly", "Relationship(Kimberly) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelMabel, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelMabel", "Relationship(Mabel) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelMabel, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelMabel", "Relationship(Mabel) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelPat, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelPat", "Relationship(Pat) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelPat, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelPat", "Relationship(Pat) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelTeri, *, Positive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelTeri", "Relationship(Teri) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(AskRelTeri, *, Negative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskRelTeri", "Relationship(Teri) < 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(Complement, *, Neutral, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = Complement", "Relationship(Player) < 0"]
+						},
+					"Priority": 6
+				},
+				{
+					"Action": "Speak(Complement, *, MildPositive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = Complement", "Mood(SELF) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(Complement, *, MildPositive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = Complement", "Relationship(Player) > 0"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(Complement, *, MildPositive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = Complement", "PersonalityFactor(SELF, Agreeableness) > 25"]
+						},
+					"Priority": 3
+				},
+				{
+					"Action": "Speak(Complement, *, StrongPositive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = Complement", "Mood(SELF) > 5"]
 						},
 					"Priority": 4
-				}, 
+				},
 				{
-					"Action": "Speak([cs], *, StrongNegative, *)",
+					"Action": "Speak(Complement, *, StrongPositive, *)",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
 						{
-							"Set": ["DialogueState(Player) = [cs]", "Mood(SELF) < -1"]
+							"Set": ["DialogueState(Player) = Complement", PersonalityFactor(SELF, Agreeableness) > 50]
 						},
 					"Priority": 4
-				}, 
+				},
 				{
-					"Action": "Speak([cs], *, InsultPlayer, *)",
+					"Action": "Speak(Complement, *, ComplementPlayer, *)",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
 						{
-							"Set": ["DialogueState(Player) = [cs]", "Mood(SELF) < -1", "Relationship(Player) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
+							"Set": ["DialogueState(Player) = Complement", PersonalityFactor(SELF, Agreeableness) > 75]
 						},
 					"Priority": 5
-				}, 
+				},
 				{
-					"Action": "Speak([cs], *, InsultAgent, [x])",
+					"Action": "Speak(Complement, *, ComplementPlayer, *)",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
 						{
-							"Set": ["DialogueState(Player) = [cs]", "Mood(SELF) < -1", "Relationship([x]) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
+							"Set": ["DialogueState(Player) = Complement", "Mood(SELF) > 5", "Relationship(Player) > 0"]
 						},
 					"Priority": 5
-				}, 
+				},
 				{
-					"Action": "Speak([cs], *, JokeAgent, [x])",
+					"Action": "Speak(Complement, *, StrongPositive, *)",
 					"Target": "Player",
 					"Layer": "-",
 					"Conditions":
 						{
-							"Set": ["DialogueState(Player) = [cs]", "Relationship([x]) < 0", "Relationship(Player) > 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 5
-				}, 
-				{
-					"Action": "Speak([cs], *, Tease, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = [cs]", "Relationship(Player) > 0", "Mood(SELF) > 0"]
-						},
-					"Priority": 5
-				}, 
-				{
-					"Action": "Speak([cs], *, ComplementPlayer, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = [cs]", "Relationship(Player) > 0", "Mood(SELF) > 0"]
-						},
-					"Priority": 5
-				}, 
-				{
-					"Action": "Speak([cs], *, ComplementPlayer, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = [cs]", "PersonalityFactor(SELF, Agreeableness) >= 75"]
-						},
-					"Priority": 5
-				}, 
-				{
-					"Action": "Speak([cs], *, ComplementAgent, [x])",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = [cs]", "Relationship([x]) > 0", "Mood(SELF) > 0"]
-						},
-					"Priority": 5
-				}, 
-				{
-					"Action": "Speak([cs], *, ComplimentAgent, [x])",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = [cs]", "PersonalityFactor(SELF, Agreeableness) >= 75"]
-						},
-					"Priority": 5
-				}, 
-				{
-					"Action": "Speak([cs], *, DownGreet, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = [cs]", "Mood(SELF) < 0"]
-						},
-					"Priority": 3
-				}, 
-				{
-					"Action": "Speak([cs], *, ExcitedGreet, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = [cs]", "Relationship(Player) > 0", "Mood(SELF) > 0", "PersonalityFactor(SELF, Extraversion) > 0"]
-						},
-					"Priority": 4
-				}, 
-				{
-					"Action": "Speak([cs], *, WarmGreet, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = [cs]", "Relationship(Player) > 0", "Mood(SELF) > 0"]
-						},
-					"Priority": 3
-				}, 
-				{
-					"Action": "Speak([cs], *, ColdGreet, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = [cs]", "Relationship(Player) < 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
+							"Set": ["DialogueState(Player) = Complement", "Mood(SELF) > 0", "Relationship(Player) > 0"]
 						},
 					"Priority": 4
 				}]
