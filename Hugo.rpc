@@ -4,7 +4,7 @@
 			"classId": 0,
 			"KnowledgeBase":
 				{
-					"Perspective": "Pat",
+					"Perspective": "Hugo",
 					"Knowledge":
 						{
 							"SELF":
@@ -18,7 +18,7 @@
 									"InsultedBy(Helen)": "False, 1",
 									"InsultedBy(Joanne)": "False, 1",
 									"InsultedBy(Arnold)": "False, 1",
-									"InsultedBy(Hugo)": "False, 1",
+									"InsultedBy(Pat)": "False, 1",
 									"ComplementedBy(Player)": "False, 1",
 									"ComplementedBy(Mabel)": "False, 1",
 									"ComplementedBy(Ernest)": "False, 1",
@@ -28,7 +28,7 @@
 									"ComplementedBy(Helen)": "False, 1",
 									"ComplementedBy(Joanne)": "False, 1",
 									"ComplementedBy(Arnold)": "False, 1",
-									"ComplementedBy(Hugo)": "False, 1",
+									"ComplementedBy(Pat)": "False, 1",
 									"RelationshipDelta(Player)": "0, 1",
 									"RelationshipDelta(Mabel)": "0, 1",
 									"RelationshipDelta(Ernest)": "0, 1",
@@ -38,17 +38,17 @@
 									"RelationshipDelta(Helen)": "0, 1",
 									"RelationshipDelta(Joanne)": "0, 1",
 									"RelationshipDelta(Arnold)": "0, 1",
-									"RelationshipDelta(Hugo)": "0, 1",
+									"RelationshipDelta(Pat)": "0, 1",
 									"Relationship(Player)": "0, 1",
-									"Relationship(Mabel)": "0, 1",
+									"Relationship(Mabel)": "2, 1",
 									"Relationship(Ernest)": "-2, 1",
-									"Relationship(Kimberly)": "1, 1",
-									"Relationship(Teri)": "-2, 1",
-									"Relationship(Julian)": "-2, 1",
-									"Relationship(Helen)": "0, 1",
-									"Relationship(Joanne)": "2, 1",
-									"Relationship(Arnold)": "1, 1",
-									"Relationship(Hugo)": "2, 1"
+									"Relationship(Kimberly)": "2, 1",
+									"Relationship(Teri)": "2, 1",
+									"Relationship(Julian)": "2, 1",
+									"Relationship(Helen)": "2, 1",
+									"Relationship(Joanne)": "0, 1",
+									"Relationship(Arnold)": "-2, 1",
+									"Relationship(Pat)": "-2, 1"
 								}
 						}
 				},

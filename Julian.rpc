@@ -4,7 +4,7 @@
 			"classId": 0,
 			"KnowledgeBase":
 				{
-					"Perspective": "Pat",
+					"Perspective": "Julian",
 					"Knowledge":
 						{
 							"SELF":
@@ -14,7 +14,7 @@
 									"InsultedBy(Ernest)": "False, 1",
 									"InsultedBy(Kimberly)": "False, 1",
 									"InsultedBy(Teri)": "False, 1",
-									"InsultedBy(Julian)": "False, 1",
+									"InsultedBy(Pat)": "False, 1",
 									"InsultedBy(Helen)": "False, 1",
 									"InsultedBy(Joanne)": "False, 1",
 									"InsultedBy(Arnold)": "False, 1",
@@ -24,7 +24,7 @@
 									"ComplementedBy(Ernest)": "False, 1",
 									"ComplementedBy(Kimberly)": "False, 1",
 									"ComplementedBy(Teri)": "False, 1",
-									"ComplementedBy(Julian)": "False, 1",
+									"ComplementedBy(Pat)": "False, 1",
 									"ComplementedBy(Helen)": "False, 1",
 									"ComplementedBy(Joanne)": "False, 1",
 									"ComplementedBy(Arnold)": "False, 1",
@@ -34,27 +34,27 @@
 									"RelationshipDelta(Ernest)": "0, 1",
 									"RelationshipDelta(Kimberly)": "0, 1",
 									"RelationshipDelta(Teri)": "0, 1",
-									"RelationshipDelta(Julian)": "0, 1",
+									"RelationshipDelta(Pat)": "0, 1",
 									"RelationshipDelta(Helen)": "0, 1",
 									"RelationshipDelta(Joanne)": "0, 1",
 									"RelationshipDelta(Arnold)": "0, 1",
 									"RelationshipDelta(Hugo)": "0, 1",
 									"Relationship(Player)": "0, 1",
-									"Relationship(Mabel)": "0, 1",
-									"Relationship(Ernest)": "-2, 1",
-									"Relationship(Kimberly)": "1, 1",
-									"Relationship(Teri)": "-2, 1",
-									"Relationship(Julian)": "-2, 1",
-									"Relationship(Helen)": "0, 1",
-									"Relationship(Joanne)": "2, 1",
-									"Relationship(Arnold)": "1, 1",
-									"Relationship(Hugo)": "2, 1"
+									"Relationship(Mabel)": "2, 1",
+									"Relationship(Ernest)": "0, 1",
+									"Relationship(Kimberly)": "0, 1",
+									"Relationship(Teri)": "2, 1",
+									"Relationship(Pat)": "0, 1",
+									"Relationship(Helen)": "-2, 1",
+									"Relationship(Joanne)": "1, 1",
+									"Relationship(Arnold)": "-1, 1",
+									"Relationship(Hugo)": "-2, 1"
 								}
 						}
 				},
 			"BodyName": null,
 			"VoiceName": null,
-			"EmotionalAppraisalAssetSource": "GenericEA.ea",
+			"EmotionalAppraisalAssetSource": "AnxiousEA.ea",
 			"EmotionalDecisionMakingSource": "GenericEDM.edm",
 			"SocialImportanceAssetSource": null,
 			"CommeillFautAssetSource": null,

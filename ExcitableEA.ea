@@ -256,9 +256,59 @@
 					"Emotion": "*",
 					"Decay": 5,
 					"Threshold": 5
+				}, 
+				{
+					"Emotion": "Shame",
+					"Decay": 3,
+					"Threshold": 3
+				}, 
+				{
+					"Emotion": "Reproach",
+					"Decay": 4,
+					"Threshold": 4
+				}, 
+				{
+					"Emotion": "Remorse",
+					"Decay": 3,
+					"Threshold": 3
+				}, 
+				{
+					"Emotion": "Pride",
+					"Decay": 2,
+					"Threshold": 2
+				}, 
+				{
+					"Emotion": "Joy",
+					"Decay": 2,
+					"Threshold": 2
+				}, 
+				{
+					"Emotion": "Gratification",
+					"Decay": 2,
+					"Threshold": 2
+				}, 
+				{
+					"Emotion": "Distress",
+					"Decay": 2,
+					"Threshold": 2
+				}, 
+				{
+					"Emotion": "Gratitude",
+					"Decay": 3,
+					"Threshold": 3
+				}, 
+				{
+					"Emotion": "Anger",
+					"Decay": 4,
+					"Threshold": 4
+				}, 
+				{
+					"Emotion": "Admiration",
+					"Decay": 3,
+					"Threshold": 3
 				}],
 			"Goals": [],
-			"Personality": [0, 0, 0, 0, 0]
+			"Personality": [0.75, -0.25, 0.75, 0.5, 0.75]
 		},
 	"types": [
 		{
