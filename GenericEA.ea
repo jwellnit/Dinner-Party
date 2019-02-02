@@ -13,16 +13,16 @@
 								{
 									"Set": []
 								},
-							"Desirability": -7,
-							"Praiseworthiness": -7
+							"Desirability": -6,
+							"Praiseworthiness": -6
 						}, 
 						{
 							"EventName": "Event(Action-End, Player, Speak(*, *, Joke, *), SELF)",
 							"Conditions":
 								{
-									"Set": ["PersonalityFactor(SELF, Extraversion) >= 75"]
+									"Set": ["PersonalityFactor(SELF, Extraversion) >= 0"]
 								},
-							"Desirability": 3,
+							"Desirability": 6,
 							"Praiseworthiness": 0
 						}, 
 						{
@@ -31,7 +31,7 @@
 								{
 									"Set": ["Mood(SELF) >= 0"]
 								},
-							"Desirability": 3,
+							"Desirability": 5,
 							"Praiseworthiness": 0
 						}, 
 						{
@@ -40,7 +40,7 @@
 								{
 									"Set": ["Relationship(Player) >= 0", "PersonalityFactor(SELF, Neuroticism) > -50"]
 								},
-							"Desirability": 3,
+							"Desirability": 5,
 							"Praiseworthiness": 0
 						}, 
 						{
@@ -49,7 +49,7 @@
 								{
 									"Set": ["Relationship(Player) < 0"]
 								},
-							"Desirability": -3,
+							"Desirability": -5,
 							"Praiseworthiness": -3
 						}, 
 						{
@@ -58,7 +58,7 @@
 								{
 									"Set": ["PersonalityFactor(SELF, Neuroticism) <= -50"]
 								},
-							"Desirability": -3,
+							"Desirability": -5,
 							"Praiseworthiness": -3
 						}, 
 						{
@@ -67,7 +67,7 @@
 								{
 									"Set": ["Relationship([x]) >= 0"]
 								},
-							"Desirability": -3,
+							"Desirability": -5,
 							"Praiseworthiness": -3
 						}, 
 						{
@@ -76,7 +76,7 @@
 								{
 									"Set": ["PersonalityFactor(SELF, Agreeableness) >= 75"]
 								},
-							"Desirability": -3,
+							"Desirability": -5,
 							"Praiseworthiness": -3
 						}, 
 						{
@@ -85,7 +85,7 @@
 								{
 									"Set": ["PersonalityFactor(SELF, Agreeableness) < 75", "Relationship([x]) < 0"]
 								},
-							"Desirability": 3,
+							"Desirability": 5,
 							"Praiseworthiness": 3
 						}, 
 						{
@@ -94,7 +94,7 @@
 								{
 									"Set": ["Relationship([x]) >= 0"]
 								},
-							"Desirability": -4,
+							"Desirability": -6,
 							"Praiseworthiness": -4
 						}, 
 						{
@@ -103,7 +103,7 @@
 								{
 									"Set": ["PersonalityFactor(SELF, Agreeableness) >= 75"]
 								},
-							"Desirability": -4,
+							"Desirability": -6,
 							"Praiseworthiness": -4
 						}, 
 						{
@@ -112,7 +112,7 @@
 								{
 									"Set": ["PersonalityFactor(SELF, Agreeableness) < 75", "Relationship([x]) < 0"]
 								},
-							"Desirability": 4,
+							"Desirability": 6,
 							"Praiseworthiness": 4
 						}, 
 						{
@@ -121,7 +121,7 @@
 								{
 									"Set": ["Relationship([x]) >= 0"]
 								},
-							"Desirability": 3,
+							"Desirability": 5,
 							"Praiseworthiness": 0
 						}, 
 						{
@@ -130,7 +130,7 @@
 								{
 									"Set": ["Relationship([x]) < 0"]
 								},
-							"Desirability": 1,
+							"Desirability": 3,
 							"Praiseworthiness": 0
 						}, 
 						{
@@ -139,7 +139,7 @@
 								{
 									"Set": ["Relationship([x]) > 0", "Relationship(Player) <= 0"]
 								},
-							"Desirability": -5,
+							"Desirability": -7,
 							"Praiseworthiness": -5
 						}, 
 						{
@@ -166,7 +166,7 @@
 								{
 									"Set": ["Relationship([x]) < 0"]
 								},
-							"Desirability": -1,
+							"Desirability": -3,
 							"Praiseworthiness": 0
 						}, 
 						{
@@ -174,15 +174,6 @@
 							"Conditions":
 								{
 									"Set": ["Relationship([x]) < 0"]
-								},
-							"Desirability": -1,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) = 0"]
 								},
 							"Desirability": -3,
 							"Praiseworthiness": 0
@@ -191,9 +182,18 @@
 							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, [x]), SELF)",
 							"Conditions":
 								{
+									"Set": ["Relationship([x]) = 0"]
+								},
+							"Desirability": -5,
+							"Praiseworthiness": 0
+						}, 
+						{
+							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, [x]), SELF)",
+							"Conditions":
+								{
 									"Set": ["Relationship([x]) > 0", "Relationship(Player) > 0"]
 								},
-							"Desirability": -4,
+							"Desirability": -6,
 							"Praiseworthiness": 0
 						}, 
 						{
@@ -202,7 +202,7 @@
 								{
 									"Set": ["Relationship([x]) > 0", "Relationship(Player) <= 0"]
 								},
-							"Desirability": -4,
+							"Desirability": -6,
 							"Praiseworthiness": -4
 						}, 
 						{
@@ -211,7 +211,7 @@
 								{
 									"Set": []
 								},
-							"Desirability": 5,
+							"Desirability": 7,
 							"Praiseworthiness": 5
 						}, 
 						{
@@ -220,7 +220,7 @@
 								{
 									"Set": ["Relationship([x]) < 0"]
 								},
-							"Desirability": -4,
+							"Desirability": -6,
 							"Praiseworthiness": -4
 						}, 
 						{
@@ -229,7 +229,7 @@
 								{
 									"Set": ["Relationship([x]) >= 0"]
 								},
-							"Desirability": 4,
+							"Desirability": 6,
 							"Praiseworthiness": 4
 						}, 
 						{
@@ -238,7 +238,7 @@
 								{
 									"Set": ["Relationship([x]) >= 0"]
 								},
-							"Desirability": 4,
+							"Desirability": 6,
 							"Praiseworthiness": 0
 						}, 
 						{
@@ -247,15 +247,25 @@
 								{
 									"Set": ["Relationship([x]) < 0"]
 								},
-							"Desirability": 1,
+							"Desirability": 3,
 							"Praiseworthiness": 0
 						}]
 				},
 			"EmotionDispositions": [
 				{
 					"Emotion": "*",
-					"Decay": 5,
-					"Threshold": 5
+					"Decay": 1,
+					"Threshold": 1
+				}, 
+				{
+					"Emotion": "Distress",
+					"Decay": 2,
+					"Threshold": 2
+				}, 
+				{
+					"Emotion": "Reproach",
+					"Decay": 2,
+					"Threshold": 2
 				}],
 			"Goals": [],
 			"Personality": [0, 0, 0, 0, 0]
