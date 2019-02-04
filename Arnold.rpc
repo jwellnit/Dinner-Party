@@ -48,7 +48,8 @@
 									"Relationship(Helen)": "1, 1",
 									"Relationship(Joanne)": "-1, 1",
 									"Relationship(Pat)": "-1, 1",
-									"Relationship(Hugo)": "-2, 1"
+									"Relationship(Hugo)": "-2, 1",
+									"Late(Arnold)": "True, 1"
 								}
 						}
 				},
