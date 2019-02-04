@@ -7,301 +7,1282 @@
 				{
 					"AppraisalWeight": 1,
 					"Rules": [
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, Insult, *), SELF)",
-							"Conditions":
-								{
-									"Set": []
-								},
-							"Desirability": -7,
-							"Praiseworthiness": -7
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, Joke, *), SELF)",
-							"Conditions":
-								{
-									"Set": ["PersonalityFactor(SELF, Extraversion) >= 75"]
-								},
-							"Desirability": 3,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, Joke, *), SELF)",
-							"Conditions":
-								{
-									"Set": ["Mood(SELF) >= 0"]
-								},
-							"Desirability": 3,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, Tease, *), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship(Player) >= 0", "PersonalityFactor(SELF, Neuroticism) > -50"]
-								},
-							"Desirability": 3,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, Tease, *), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship(Player) < 0"]
-								},
-							"Desirability": -3,
-							"Praiseworthiness": -3
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, Tease, *), SELF)",
-							"Conditions":
-								{
-									"Set": ["PersonalityFactor(SELF, Neuroticism) <= -50"]
-								},
-							"Desirability": -3,
-							"Praiseworthiness": -3
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, JokeAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) >= 0"]
-								},
-							"Desirability": -3,
-							"Praiseworthiness": -3
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, JokeAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["PersonalityFactor(SELF, Agreeableness) >= 75"]
-								},
-							"Desirability": -3,
-							"Praiseworthiness": -3
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, JokeAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["PersonalityFactor(SELF, Agreeableness) < 75", "Relationship([x]) < 0"]
-								},
-							"Desirability": 3,
-							"Praiseworthiness": 3
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, InsultAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) >= 0"]
-								},
-							"Desirability": -4,
-							"Praiseworthiness": -4
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, InsultAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["PersonalityFactor(SELF, Agreeableness) >= 75"]
-								},
-							"Desirability": -4,
-							"Praiseworthiness": -4
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, InsultAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["PersonalityFactor(SELF, Agreeableness) < 75", "Relationship([x]) < 0"]
-								},
-							"Desirability": 4,
-							"Praiseworthiness": 4
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentLike, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) >= 0"]
-								},
-							"Desirability": 3,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentLike, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) < 0"]
-								},
-							"Desirability": 1,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) > 0", "Relationship(Player) <= 0"]
-								},
-							"Desirability": -5,
-							"Praiseworthiness": -5
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) = 0"]
-								},
-							"Desirability": -3,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) > 0", "Relationship(Player) > 0"]
-								},
-							"Desirability": -5,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) < 0"]
-								},
-							"Desirability": -1,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) < 0"]
-								},
-							"Desirability": -1,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) = 0"]
-								},
-							"Desirability": -3,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) > 0", "Relationship(Player) > 0"]
-								},
-							"Desirability": -4,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) > 0", "Relationship(Player) <= 0"]
-								},
-							"Desirability": -4,
-							"Praiseworthiness": -4
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, Complement, *), SELF)",
-							"Conditions":
-								{
-									"Set": []
-								},
-							"Desirability": 5,
-							"Praiseworthiness": 5
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, ComplementAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) < 0"]
-								},
-							"Desirability": -4,
-							"Praiseworthiness": -4
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, ComplementAgent, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) >= 0"]
-								},
-							"Desirability": 4,
-							"Praiseworthiness": 4
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentComplement, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) >= 0"]
-								},
-							"Desirability": 4,
-							"Praiseworthiness": 0
-						}, 
-						{
-							"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentComplement, [x]), SELF)",
-							"Conditions":
-								{
-									"Set": ["Relationship([x]) < 0"]
-								},
-							"Desirability": 1,
-							"Praiseworthiness": 0
-						}]
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, Insult, *), SELF)",
+						"Conditions":
+							{
+								"Set": []
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, Joke, *), SELF)",
+						"Conditions":
+							{
+								"Set": ["PersonalityFactor(SELF, Extraversion) >= 0", "Mood(SELF) < 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, Joke, *), SELF)",
+						"Conditions":
+							{
+								"Set": ["Mood(SELF) >= 0", "PersonalityFactor(SELF, Extraversion) < 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, Joke, *), SELF)",
+						"Conditions":
+							{
+								"Set": ["Mood(SELF) >= 0", "PersonalityFactor(SELF, Extraversion) >= 0"]
+							},
+						"Desirability": 8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, Tease, *), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Player) >= 0", "PersonalityFactor(SELF, Neuroticism) < 50"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, Tease, *), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Player) < 0", "PersonalityFactor(SELF, Neuroticism) < 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": -4
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, Tease, *), SELF)",
+						"Conditions":
+							{
+								"Set": ["PersonalityFactor(SELF, Neuroticism) >= 50", "Relationship(Player) >= 0"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": -4
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, Tease, *), SELF)",
+						"Conditions":
+							{
+								"Set": ["PersonalityFactor(SELF, Neuroticism) >= 50", "Relationship(Player) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, JokeAgent, [x]), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship([x]) > 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, JokeAgent, [x]), SELF)",
+						"Conditions":
+							{
+								"Set": ["PersonalityFactor(SELF, Agreeableness) >= 75", "Relationship([x]) <= 0"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": -4
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, JokeAgent, [x]), SELF)",
+						"Conditions":
+							{
+								"Set": ["PersonalityFactor(SELF, Agreeableness) < 75", "Relationship([x]) < 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, InsultAgent, [x]), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship([x]) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, InsultAgent, [x]), SELF)",
+						"Conditions":
+							{
+								"Set": ["PersonalityFactor(SELF, Agreeableness) >= 75", "Relationship([x]) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, InsultAgent, [x]), SELF)",
+						"Conditions":
+							{
+								"Set": ["PersonalityFactor(SELF, Agreeableness) >= 75", "Relationship([x]) < 0"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": -4
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, InsultAgent, [x]), SELF)",
+						"Conditions":
+							{
+								"Set": ["PersonalityFactor(SELF, Agreeableness) < 75", "Relationship([x]) < 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentDislike, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, TellAgentInsult, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) > 0", "Relationship(Player) <= 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, Complement, *), SELF)",
+						"Conditions":
+							{
+								"Set": []
+							},
+						"Desirability": 8,
+						"Praiseworthiness": 8
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, ComplementAgent, [x]), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship([x]) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Player, Speak(*, *, ComplementAgent, [x]), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship([x]) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentLike, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentLike, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentDislike, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentDislike, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentDislike, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentInsult, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentInsult, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentInsult, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentComplement, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Arnold, Speak(*, *, TellAgentComplement, Arnold), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Arnold) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentLike, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentLike, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentDislike, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentDislike, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentDislike, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentInsult, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentInsult, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentInsult, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentComplement, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Ernest, Speak(*, *, TellAgentComplement, Ernest), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Ernest) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentLike, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentLike, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentDislike, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentDislike, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentDislike, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentInsult, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentInsult, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentInsult, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentComplement, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Helen, Speak(*, *, TellAgentComplement, Helen), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Helen) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentLike, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentLike, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentDislike, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentDislike, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentDislike, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentInsult, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentInsult, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentInsult, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentComplement, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Hugo, Speak(*, *, TellAgentComplement, Hugo), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Hugo) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentLike, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentLike, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentDislike, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentDislike, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentDislike, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentInsult, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentInsult, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentInsult, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentComplement, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Joanne, Speak(*, *, TellAgentComplement, Joanne), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Joanne) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentLike, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentLike, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentDislike, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentDislike, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentDislike, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentInsult, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentInsult, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentInsult, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentComplement, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Julian, Speak(*, *, TellAgentComplement, Julian), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Julian) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentLike, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentLike, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentDislike, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentDislike, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentDislike, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentInsult, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentInsult, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentInsult, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentComplement, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Kimberly, Speak(*, *, TellAgentComplement, Kimberly), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Kimberly) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentLike, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentLike, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentDislike, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentDislike, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentDislike, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentInsult, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentInsult, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentInsult, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentComplement, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Mabel, Speak(*, *, TellAgentComplement, Mabel), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Mabel) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Pat, Speak(*, *, TellAgentLike, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Pat, Speak(*, *, TellAgentLike, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Pat, Speak(*, *, TellAgentDislike, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Pat, Speak(*, *, TellAgentDislike, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Pat, Speak(*, *, TellAgentDislike, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Pat, Speak(*, *, TellAgentInsult, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Pat, Speak(*, *, TellAgentInsult, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Pat, Speak(*, *, TellAgentInsult, Pat), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Pat) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentLike, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 6
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentLike, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentDislike, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) = 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentDislike, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) > 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentDislike, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) < 0", "PersonalityFactor(SELF, Agreeableness) >= 50"]
+							},
+						"Desirability": -4,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentInsult, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) < 0"]
+							},
+						"Desirability": -6,
+						"Praiseworthiness": -6
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentInsult, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) = 0"]
+							},
+						"Desirability": -8,
+						"Praiseworthiness": -8
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentInsult, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) > 0"]
+							},
+						"Desirability": -10,
+						"Praiseworthiness": -10
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentComplement, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) >= 0"]
+							},
+						"Desirability": 6,
+						"Praiseworthiness": 0
+					},
+					{
+						"EventName": "Event(Action-End, Teri, Speak(*, *, TellAgentComplement, Teri), SELF)",
+						"Conditions":
+							{
+								"Set": ["Relationship(Teri) < 0"]
+							},
+						"Desirability": 4,
+						"Praiseworthiness": 0
+					}]
 				},
 			"EmotionDispositions": [
 				{
 					"Emotion": "*",
 					"Decay": 5,
 					"Threshold": 5
-				}, 
+				},
 				{
 					"Emotion": "Shame",
 					"Decay": 3,
 					"Threshold": 3
-				}, 
+				},
 				{
 					"Emotion": "Reproach",
 					"Decay": 4,
 					"Threshold": 4
-				}, 
+				},
 				{
 					"Emotion": "Remorse",
 					"Decay": 3,
 					"Threshold": 3
-				}, 
+				},
 				{
 					"Emotion": "Pride",
 					"Decay": 2,
 					"Threshold": 2
-				}, 
+				},
 				{
 					"Emotion": "Joy",
 					"Decay": 2,
 					"Threshold": 2
-				}, 
+				},
 				{
 					"Emotion": "Gratification",
 					"Decay": 2,
 					"Threshold": 2
-				}, 
+				},
 				{
 					"Emotion": "Distress",
 					"Decay": 2,
 					"Threshold": 2
-				}, 
+				},
 				{
 					"Emotion": "Gratitude",
 					"Decay": 3,
 					"Threshold": 3
-				}, 
+				},
 				{
 					"Emotion": "Anger",
 					"Decay": 4,
 					"Threshold": 4
-				}, 
+				},
 				{
 					"Emotion": "Admiration",
 					"Decay": 3,
