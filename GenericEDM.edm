@@ -7452,6 +7452,136 @@
 							"Set": ["DialogueState(Player) = TellIsultTeri", "Relationship(Teri) < 0", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
 						},
 					"Priority": 5
+				}, 
+				{
+					"Action": "Speak(AskArrived, *, OnTimeNeutral, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskArrived", "Late(SELF) = False"]
+						},
+					"Priority": 3
+				}, 
+				{
+					"Action": "Speak(AskArrived, *, LateNeutral, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskArrived", "Late(SELF) = True"]
+						},
+					"Priority": 3
+				}, 
+				{
+					"Action": "Speak(AskArrived, *, OnTimeMildPositive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskArrived", "Late(SELF) = False", "PersonalityFactor(SELF, Conscientiousness) > 0"]
+						},
+					"Priority": 4
+				}, 
+				{
+					"Action": "Speak(AskArrived, *, OnTimeStrongPositive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskArrived", "Late(SELF) = False", "PersonalityFactor(SELF, Conscientiousness) >= 50"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak(AskArrived, *, LateMildPositive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskArrived", "Late(SELF) = True", "PersonalityFactor(SELF, Conscientiousness) <= -50"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak(AskArrived, *, LateMildNegative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskArrived", "Late(SELF) = True", "PersonalityFactor(SELF, Conscientiousness) > 0"]
+						},
+					"Priority": 4
+				}, 
+				{
+					"Action": "Speak(AskArrived, *, LateStrongNegative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskArrived", "Late(SELF) = True", "PersonalityFactor(SELF, Conscientiousness) >= 50"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak(AskFood, *, MildPositive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskFood", "PersonalityFactor(SELF, Openness) > 0"]
+						},
+					"Priority": 3
+				}, 
+				{
+					"Action": "Speak(AskFood, *, StrongPositive, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskFood", "PersonalityFactor(SELF, Openness) >= 50"]
+						},
+					"Priority": 4
+				}, 
+				{
+					"Action": "Speak(AskFood, *, ComplementFood, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskFood", "PersonalityFactor(SELF, Openness) >= 75"]
+						},
+					"Priority": 5
+				}, 
+				{
+					"Action": "Speak(AskFood, *, MildNegative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskFood", "PersonalityFactor(SELF, Openness) < 0"]
+						},
+					"Priority": 3
+				}, 
+				{
+					"Action": "Speak(AskFood, *, StrongNegative, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskFood", "PersonalityFactor(SELF, Openness) <= -50", "PersonalityFactor(SELF, Agreeableness) < 50"]
+						},
+					"Priority": 4
+				}, 
+				{
+					"Action": "Speak(AskFood, *, InsultFood, *)",
+					"Target": "Player",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Player) = AskFood", "PersonalityFactor(SELF, Openness) <= -75", "PersonalityFactor(SELF, Agreeableness) < 0"]
+						},
+					"Priority": 5
 				}]
 		},
 	"types": [
