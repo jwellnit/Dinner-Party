@@ -1,0 +1,112 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"ActionTendencies": [
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Arnold",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Arnold) = [cs]"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Ernest",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Ernest) = [cs]"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Helen",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Helen) = [cs]"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Hugo",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Hugo) = [cs]"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Joanne",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Joanne) = [cs]"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Julian",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Julian) = [cs]"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Kimberly",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Kimberly) = [cs]"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Mabel",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Mabel) = [cs]"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Pat",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Pat) = [cs]"]
+						},
+					"Priority": 1
+				}, 
+				{
+					"Action": "Speak([cs], *, *, *)",
+					"Target": "Teri",
+					"Layer": "-",
+					"Conditions":
+						{
+							"Set": ["DialogueState(Teri) = [cs]"]
+						},
+					"Priority": 1
+				}]
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "EmotionalDecisionMaking.EmotionalDecisionMakingAsset, EmotionalDecisionMaking, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

@@ -1,0 +1,4640 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"ScenarioName": "Dinner Party",
+			"Description": "Socialize with the guests to your heart's content and see their various responses and reactions.",
+			"WorldModelSource": "World.wmo",
+			"CharacterSources": ["Player.rpc", "Pat.rpc", "Arnold.rpc", "Ernest.rpc", "Helen.rpc", "Hugo.rpc", "Joanne.rpc", "Julian.rpc", "Kimberly.rpc", "Mabel.rpc", "Teri.rpc"],
+			"Dialogues": [
+				{
+					"CurrentState": "AskArrived",
+					"NextState": "Home",
+					"Meaning": "OnTimeStrongPositive",
+					"Style": "-",
+					"Utterance": "Oh, of ourse I got here on time! [Smiles]",
+					"UtteranceId": "TTS-51A22F34266F16B991414666F7549912"
+				}, 
+				{
+					"CurrentState": "AskArrived",
+					"NextState": "Home",
+					"Meaning": "OnTimeMildPositive",
+					"Style": "-",
+					"Utterance": "I got here on time. [Smiles]",
+					"UtteranceId": "TTS-E6F5317C749ADD8F3BA711F53C5C0ED8"
+				}, 
+				{
+					"CurrentState": "AskArrived",
+					"NextState": "Home",
+					"Meaning": "OnTimeNeutral",
+					"Style": "-",
+					"Utterance": "I got here about on time.",
+					"UtteranceId": "TTS-61168470FCA27DC4ED084A09898B5477"
+				}, 
+				{
+					"CurrentState": "AskArrived",
+					"NextState": "Home",
+					"Meaning": "LateMildPositive",
+					"Style": "-",
+					"Utterance": "Oh, ha, yeah, I was a little late, but you know me! [Smiles]",
+					"UtteranceId": "TTS-AEB13CAB1C75E0165D17B4417582D63E"
+				}, 
+				{
+					"CurrentState": "AskArrived",
+					"NextState": "Home",
+					"Meaning": "LateNeutral",
+					"Style": "-",
+					"Utterance": "Oh, I think I was a little bit late.",
+					"UtteranceId": "TTS-82168E06D14D05BC48F730F7191E6F8B"
+				}, 
+				{
+					"CurrentState": "AskArrived",
+					"NextState": "Home",
+					"Meaning": "LateMildNegative",
+					"Style": "-",
+					"Utterance": "Yeah, unfortunately I was a bit late.",
+					"UtteranceId": "TTS-FA2B34C1E45ABDC064D5CC2A1A96829C"
+				}, 
+				{
+					"CurrentState": "AskArrived",
+					"NextState": "Home",
+					"Meaning": "LateStrongNegative",
+					"Style": "-",
+					"Utterance": "I can't believe I was late!",
+					"UtteranceId": "TTS-CB877212716E63C325C4034A800E7270"
+				}, 
+				{
+					"CurrentState": "AskFood",
+					"NextState": "Home",
+					"Meaning": "ComplementFood",
+					"Style": "-",
+					"Utterance": "Oh, wow! I've never had this before, but it's amazing!",
+					"UtteranceId": "TTS-9B7E4CD4E51AAC9767CB13009BC5F854"
+				}, 
+				{
+					"CurrentState": "AskFood",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "-",
+					"Utterance": "Yeah it's really different and unique but I love it!",
+					"UtteranceId": "TTS-ABD295BE85C73D7430DCCA4BA771AEF2"
+				}, 
+				{
+					"CurrentState": "AskFood",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "-",
+					"Utterance": "It's definitely different than I was expecting, but really good.",
+					"UtteranceId": "TTS-B578323B3391B261666B31367A5B4DBD"
+				}, 
+				{
+					"CurrentState": "AskFood",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "It's fine I guess.",
+					"UtteranceId": "TTS-136CD48E9CC49037DC0FF775673AC6C8"
+				}, 
+				{
+					"CurrentState": "AskFood",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "-",
+					"Utterance": "It's… pretty good. Just not really my thing.",
+					"UtteranceId": "TTS-9DB86C9CE0664DDEE25D39DEF01CE8EF"
+				}, 
+				{
+					"CurrentState": "AskFood",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "-",
+					"Utterance": "It's really different than what I normally eat. I'm not a fan.",
+					"UtteranceId": "TTS-1BA6407780577C04A44B07F9DC4FBBE7"
+				}, 
+				{
+					"CurrentState": "AskFood",
+					"NextState": "Home",
+					"Meaning": "InsultFood",
+					"Style": "-",
+					"Utterance": "I hate it! Why did they have to try and make something new?",
+					"UtteranceId": "TTS-C4F4458877E454CDEB1ED8635CF1A612"
+				}, 
+				{
+					"CurrentState": "AskMood",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "-",
+					"Utterance": "I'm not havig such a great time.",
+					"UtteranceId": "TTS-632B6737DCB3D3553A8960949A23AACC"
+				}, 
+				{
+					"CurrentState": "AskMood",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "I'm alright.",
+					"UtteranceId": "TTS-886116B475166E8448F46C4B57CD2841"
+				}, 
+				{
+					"CurrentState": "AskMood",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "-",
+					"Utterance": "I'm doing pretty good.",
+					"UtteranceId": "TTS-77A8CA4C6C843379C33A33A5BFC01559"
+				}, 
+				{
+					"CurrentState": "AskRel",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "-",
+					"Utterance": "I… don't really like you.",
+					"UtteranceId": "TTS-DDE8F622E5D49E23EF2417541F750878"
+				}, 
+				{
+					"CurrentState": "AskRel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "Fine I guess. Haven't really given you much thought.",
+					"UtteranceId": "TTS-4C897AD4EC3482C8D3E427F495AE86E5"
+				}, 
+				{
+					"CurrentState": "AskRel",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "-",
+					"Utterance": "I'd say good. I think you're pretty cool.",
+					"UtteranceId": "TTS-CF25AC557CBD284B3D1748C13290FE9E"
+				}, 
+				{
+					"CurrentState": "AskRelArnold",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Arnold",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelArnold",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Arnold",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelArnold",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Arnold",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "AskRelErnest",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Ernest",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelErnest",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Ernest",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelErnest",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Ernest",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "AskRelHelen",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Helen",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelHelen",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Helen",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelHelen",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Helen",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "AskRelHugo",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Hugo",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelHugo",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Hugo",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelHugo",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Hugo",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "AskRelJoanne",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Joanne",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelJoanne",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Joanne",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelJoanne",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Joanne",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "AskRelJulian",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Julian",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelJulian",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Julian",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelJulian",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Julian",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "AskRelKimberly",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Kimberly",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelKimberly",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Kimberly",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelKimberly",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Kimberly",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "AskRelMabel",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Mabel",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelMabel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Mabel",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelMabel",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Mabel",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "AskRelPat",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Pat",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelPat",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Pat",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelPat",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Pat",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "AskRelTeri",
+					"NextState": "Home",
+					"Meaning": "Negative",
+					"Style": "Teri",
+					"Utterance": "I really don't care for them.",
+					"UtteranceId": "TTS-E7037716F80043CDE705C9995BEBAB92"
+				}, 
+				{
+					"CurrentState": "AskRelTeri",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Teri",
+					"Utterance": "They seem fine.",
+					"UtteranceId": "TTS-9BA271CFA8B579BC607041C0C7F5E94D"
+				}, 
+				{
+					"CurrentState": "AskRelTeri",
+					"NextState": "Home",
+					"Meaning": "Positive",
+					"Style": "Teri",
+					"Utterance": "Oh they're great!",
+					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "Complement",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "Oh, okay.",
+					"UtteranceId": "TTS-05F0E8D2E209F7D591E4C87F7D3A5521"
+				}, 
+				{
+					"CurrentState": "Complement",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "-",
+					"Utterance": "Oh, thanks!",
+					"UtteranceId": "TTS-DC2A6324D7949C53B9B51AC859938483"
+				}, 
+				{
+					"CurrentState": "Complement",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "-",
+					"Utterance": "Wow! Thank you so much!",
+					"UtteranceId": "TTS-15B40C1F7F0A5FC9A9521B3E76E1B343"
+				}, 
+				{
+					"CurrentState": "Complement",
+					"NextState": "Home",
+					"Meaning": "ComplementPlayer",
+					"Style": "-",
+					"Utterance": "Thanks! You're really cool too.",
+					"UtteranceId": "TTS-79B6C0CAC425066035055991DA31D2AC"
+				}, 
+				{
+					"CurrentState": "ComplementArnold",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Arnold",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementArnold",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Arnold",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementArnold",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Arnold",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementArnold",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Arnold",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementArnold",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Arnold",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementArnold",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Arnold",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementArnold",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Arnold",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "ComplementErnest",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Ernest",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementErnest",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Ernest",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementErnest",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Ernest",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementErnest",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Ernest",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementErnest",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Ernest",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementErnest",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Ernest",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementErnest",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Ernest",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "ComplementHelen",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Helen",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementHelen",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Helen",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementHelen",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Helen",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementHelen",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Helen",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementHelen",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Helen",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementHelen",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Helen",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementHelen",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Helen",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "ComplementHugo",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Hugo",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementHugo",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Hugo",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementHugo",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Hugo",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementHugo",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Hugo",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementHugo",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Hugo",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementHugo",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Hugo",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementHugo",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Hugo",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "ComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Joanne",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Joanne",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Joanne",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Joanne",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Joanne",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Joanne",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Joanne",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "ComplementJulian",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Julian",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementJulian",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Julian",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementJulian",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Julian",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementJulian",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Julian",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementJulian",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Julian",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementJulian",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Julian",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementJulian",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Julian",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "ComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Kimberly",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Kimberly",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Kimberly",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Kimberly",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Kimberly",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Kimberly",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Kimberly",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "ComplementMabel",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Mabel",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementMabel",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Mabel",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementMabel",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Mabel",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementMabel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Mabel",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementMabel",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Mabel",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementMabel",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Mabel",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementMabel",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Mabel",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "ComplementPat",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Pat",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementPat",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Pat",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementPat",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Pat",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementPat",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Pat",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementPat",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Pat",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementPat",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Pat",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementPat",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Pat",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "ComplementTeri",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Teri",
+					"Utterance": "Ugh, no. I can't stand them.",
+					"UtteranceId": "TTS-3A4DB28429C5691F5E1931164ED82FC6"
+				}, 
+				{
+					"CurrentState": "ComplementTeri",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Teri",
+					"Utterance": "No, not really.",
+					"UtteranceId": "TTS-6CE557AD1148A62FBD369AF552F8EE71"
+				}, 
+				{
+					"CurrentState": "ComplementTeri",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Teri",
+					"Utterance": "Eh, I don't know...",
+					"UtteranceId": "TTS-AD2251878A12E4B3B8D731ACFFA2D427"
+				}, 
+				{
+					"CurrentState": "ComplementTeri",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Teri",
+					"Utterance": "Maybe; I havent given them much thought.",
+					"UtteranceId": "TTS-ECFD1350A4271AE916CD439B2CF8D250"
+				}, 
+				{
+					"CurrentState": "ComplementTeri",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Teri",
+					"Utterance": "Yeah, they seem alright.",
+					"UtteranceId": "TTS-DECA81D3B4C3D31D46F88494181F4FBD"
+				}, 
+				{
+					"CurrentState": "ComplementTeri",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Teri",
+					"Utterance": "Yeah, totally!",
+					"UtteranceId": "TTS-7B6CFE1EC336A33F82DF50584301B9C8"
+				}, 
+				{
+					"CurrentState": "ComplementTeri",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Teri",
+					"Utterance": "Oh yeah, they're the best!",
+					"UtteranceId": "TTS-87B15B6D0F51147DC4BBF89B48C0CABF"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskArrived",
+					"Meaning": "Ask",
+					"Style": "-",
+					"Utterance": "Hey, when did you get here?",
+					"UtteranceId": "TTS-9FF68AE6CAC5DB8CBC419E26C4A9ED84"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskFood",
+					"Meaning": "Ask",
+					"Style": "-",
+					"Utterance": "How's the food?",
+					"UtteranceId": "TTS-F796EFD57A281031E6F5825D931D99DB"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskMood",
+					"Meaning": "Ask",
+					"Style": "-",
+					"Utterance": "So, how's it going tonight?",
+					"UtteranceId": "TTS-E3DC48EF8C2C575CEADE8950F27F0805"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRel",
+					"Meaning": "Ask",
+					"Style": "-",
+					"Utterance": "How are things between us.",
+					"UtteranceId": "TTS-9190BC7DD608FC87C5D8D965F56AE3AB"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelArnold",
+					"Meaning": "Ask",
+					"Style": "Arnold",
+					"Utterance": "What do you think about Arnold?",
+					"UtteranceId": "TTS-D85B200C4E670DEDD5F2F984D8C7C61E"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelErnest",
+					"Meaning": "Ask",
+					"Style": "Ernest",
+					"Utterance": "What do you think about Ernest?",
+					"UtteranceId": "TTS-B5326AB039DA3327D85708CEBC1EC729"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelHelen",
+					"Meaning": "Ask",
+					"Style": "Helen",
+					"Utterance": "What do you think about Helen?",
+					"UtteranceId": "TTS-8ADABAE9E9120882F8DED4963F0D3523"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelHugo",
+					"Meaning": "Ask",
+					"Style": "Hugo",
+					"Utterance": "What do you think about Hugo?",
+					"UtteranceId": "TTS-40EEE3B3A11781439568E2F4882D8DC4"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelJoanne",
+					"Meaning": "Ask",
+					"Style": "Joanne",
+					"Utterance": "What do you think about Joanne?",
+					"UtteranceId": "TTS-077B2884EA5B68D6A0D8E838659DF6F2"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelJulian",
+					"Meaning": "Ask",
+					"Style": "Julian",
+					"Utterance": "What do you think about Julian?",
+					"UtteranceId": "TTS-31897AD866A2FFD7FD4090D70045203B"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelKimberly",
+					"Meaning": "Ask",
+					"Style": "Kimberly",
+					"Utterance": "What do you think about Kimberly?",
+					"UtteranceId": "TTS-EDD1965BBBD3BA9A8133F1441A7FC8A7"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelMabel",
+					"Meaning": "Ask",
+					"Style": "Mabel",
+					"Utterance": "What do you think about Mabel?",
+					"UtteranceId": "TTS-9B7CA2AF8D86A5AB6A21C2C1D17986FA"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelPat",
+					"Meaning": "Ask",
+					"Style": "Pat",
+					"Utterance": "What do you think about Pat?",
+					"UtteranceId": "TTS-E81D0A51E99E662BD9BDC9C32D4C4F40"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "AskRelTeri",
+					"Meaning": "Ask",
+					"Style": "Teri",
+					"Utterance": "What do you think about Teri?",
+					"UtteranceId": "TTS-F17C0A4D6B21ABAA369170919D6B95BD"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Complement",
+					"Meaning": "Complement",
+					"Style": "-",
+					"Utterance": "You're really funny.",
+					"UtteranceId": "TTS-FD81548B0BB8FBFCCDA197C82BD42315"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Complement",
+					"Meaning": "Complement",
+					"Style": "-",
+					"Utterance": "You're fun to be around.",
+					"UtteranceId": "TTS-06434D5261CDFB4DEF4A514DB3D12C3A"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Complement",
+					"Meaning": "Complement",
+					"Style": "-",
+					"Utterance": "Your hair looks great today.",
+					"UtteranceId": "TTS-D3F5D8A736C6804D7C37CCCD28B0C969"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Complement",
+					"Meaning": "Complement",
+					"Style": "-",
+					"Utterance": "You look nice tonight.",
+					"UtteranceId": "TTS-8340EA2298D91D553A5D1FD52435AFE6"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Complement",
+					"Meaning": "Complement",
+					"Style": "-",
+					"Utterance": "That's a cool shirt.",
+					"UtteranceId": "TTS-ECB7B069F2A169F8E3F48ADD47B5428E"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementArnold",
+					"Meaning": "ComplementAgent",
+					"Style": "Arnold",
+					"Utterance": "Hey, Arnold is pretty great, don't you think?",
+					"UtteranceId": "TTS-B0A643C8FD5ABC62FF78B5E42D39D460"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementErnest",
+					"Meaning": "ComplementAgent",
+					"Style": "Ernest",
+					"Utterance": "Hey, Ernest is pretty great, don't you think?",
+					"UtteranceId": "TTS-FAC34461D94DA6C9CDFC4CA275344965"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementHelen",
+					"Meaning": "ComplementAgent",
+					"Style": "Helen",
+					"Utterance": "Hey, Helen is pretty great, don't you think?",
+					"UtteranceId": "TTS-94B528320302F2371BD4543BD378D9E8"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementHugo",
+					"Meaning": "ComplementAgent",
+					"Style": "Hugo",
+					"Utterance": "Hey, Hugo is pretty great, don't you think?",
+					"UtteranceId": "TTS-526D05891630D01D15647BA2961DEF94"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementJoanne",
+					"Meaning": "ComplementAgent",
+					"Style": "Joanne",
+					"Utterance": "Hey, Joanne is pretty great, don't you think?",
+					"UtteranceId": "TTS-E1C375D39E020E8F9B8A76E7A4EA1A58"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementJulian",
+					"Meaning": "ComplementAgent",
+					"Style": "Julian",
+					"Utterance": "Hey, Julian is pretty great, don't you think?",
+					"UtteranceId": "TTS-E5114104F90FBF9497AF6DD919CB398B"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementKimberly",
+					"Meaning": "ComplementAgent",
+					"Style": "Kimberly",
+					"Utterance": "Hey, Kimberlee is pretty great, don't you think?",
+					"UtteranceId": "TTS-2CD9277C9B016329F9577A5DDA806C69"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementMabel",
+					"Meaning": "ComplementAgent",
+					"Style": "Mabel",
+					"Utterance": "Hey, Mabel is pretty great, don't you think?",
+					"UtteranceId": "TTS-EE04E6FAE15E58BDC14830F0EAF3210F"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementPat",
+					"Meaning": "ComplementAgent",
+					"Style": "Pat",
+					"Utterance": "Hey, Pat is pretty great, don't you think?",
+					"UtteranceId": "TTS-5F37347E397A1A18D67EC97236FCDCE2"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "ComplementTeri",
+					"Meaning": "ComplementAgent",
+					"Style": "Teri",
+					"Utterance": "Hey, Teri is pretty great, don't you think?",
+					"UtteranceId": "TTS-DD63C5BA972722BCCE9BEC2A5BC54940"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Insult",
+					"Meaning": "Insult",
+					"Style": "-",
+					"Utterance": "Ugh, I forgot; I don't like talking to you.",
+					"UtteranceId": "TTS-A1E99C6D818E53813DF5A32628E23E84"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Insult",
+					"Meaning": "Insult",
+					"Style": "-",
+					"Utterance": "Wow, you look terrible tonight.",
+					"UtteranceId": "TTS-C326ACAAED2E32B75EA38299A520557F"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Insult",
+					"Meaning": "Insult",
+					"Style": "-",
+					"Utterance": "You know, you're really unpleasant to be around.",
+					"UtteranceId": "TTS-7DD804B2110CC757877B8DB1C67A6A2E"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultArnold",
+					"Meaning": "InsultAgent",
+					"Style": "Arnold",
+					"Utterance": "Ugh, I can't stand Arnold.",
+					"UtteranceId": "TTS-63F11434B6F36A4D26153B95056E446E"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultErnest",
+					"Meaning": "InsultAgent",
+					"Style": "Ernest",
+					"Utterance": "Ugh, I can't stand Ernest.",
+					"UtteranceId": "TTS-FF77C3ACF29D56034DB4D504D5CD473E"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultHelen",
+					"Meaning": "InsultAgent",
+					"Style": "Helen",
+					"Utterance": "Ugh, I can't stand Helen.",
+					"UtteranceId": "TTS-E5266E8153B51ADCE3DD7A293EAECFF3"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultHugo",
+					"Meaning": "InsultAgent",
+					"Style": "Hugo",
+					"Utterance": "Ugh, I can't stand Hugo.",
+					"UtteranceId": "TTS-4C60C80688B05D04AB4FB1E0045C9C97"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultJoanne",
+					"Meaning": "InsultAgent",
+					"Style": "Joanne",
+					"Utterance": "Ugh, I can't stand Joanne.",
+					"UtteranceId": "TTS-64DA33C1317DF011E636E115932839CB"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultJulian",
+					"Meaning": "InsultAgent",
+					"Style": "Julian",
+					"Utterance": "Ugh, I can't stand Julian.",
+					"UtteranceId": "TTS-777B22E3D97BA813D01B501AA863A242"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultKimberly",
+					"Meaning": "InsultAgent",
+					"Style": "Kimberly",
+					"Utterance": "Ugh, I can't stand Kimberly.",
+					"UtteranceId": "TTS-14363D9CB7EC02116826E19ED309D495"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultMabel",
+					"Meaning": "InsultAgent",
+					"Style": "Mabel",
+					"Utterance": "Ugh, I can't stand Mabel.",
+					"UtteranceId": "TTS-5C92489F6C4A4E2FE85675F278B0C7AF"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultPat",
+					"Meaning": "InsultAgent",
+					"Style": "Pat",
+					"Utterance": "Ugh, I can't stand Pat.",
+					"UtteranceId": "TTS-FD280908514EC2535E68420A4A6506E4"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "InsultTeri",
+					"Meaning": "InsultAgent",
+					"Style": "Teri",
+					"Utterance": "Ugh, I can't stand Teri.",
+					"UtteranceId": "TTS-37FE9D7B4E879AB6EE25FA817DB8423F"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Joke",
+					"Meaning": "Joke",
+					"Style": "-",
+					"Utterance": "[Tell a joke]",
+					"UtteranceId": "TTS-27F1B73C5E8A20A22A3B0E5B25BBAFD7"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokeArnold",
+					"Meaning": "JokeAgent",
+					"Style": "Arnold",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Arnold]",
+					"UtteranceId": "TTS-06A6C32F09CE74F2AB1A89FF6A88FD61"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokeErnest",
+					"Meaning": "JokeAgent",
+					"Style": "Ernest",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Ernest]",
+					"UtteranceId": "TTS-6F6F00BFB5FEABA500FDD46031877D60"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokeHelen",
+					"Meaning": "JokeAgent",
+					"Style": "Helen",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Helen]",
+					"UtteranceId": "TTS-0C096775F1FB14CF6F09E67956AAEF36"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokeHugo",
+					"Meaning": "JokeAgent",
+					"Style": "Hugo",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Hugo]",
+					"UtteranceId": "TTS-943696475B5052B3BAF640B4C20F0B2C"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokeJoanne",
+					"Meaning": "JokeAgent",
+					"Style": "Joanne",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Joanne]",
+					"UtteranceId": "TTS-73E3780015BDC82A61CFC5D3C4303C75"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokeJulian",
+					"Meaning": "JokeAgent",
+					"Style": "Julian",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Julian]",
+					"UtteranceId": "TTS-7B6EBA45D44A2382BD4EE6551A619A7B"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokeKimberly",
+					"Meaning": "JokeAgent",
+					"Style": "Kimberly",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Kimberley]",
+					"UtteranceId": "TTS-93AA2BFB63D10C1567CEA9C03BD84FEB"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokeMabel",
+					"Meaning": "JokeAgent",
+					"Style": "Mabel",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Mabel]",
+					"UtteranceId": "TTS-52F09657282320F17A802E4FF3BDE0F9"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokePat",
+					"Meaning": "JokeAgent",
+					"Style": "Pat",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Pat]",
+					"UtteranceId": "TTS-F429B417C0386BC3989AA8BA185D88A8"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "JokeTeri",
+					"Meaning": "JokeAgent",
+					"Style": "Teri",
+					"Utterance": "Hey, have you heard… [Tell mean joke about Teri]",
+					"UtteranceId": "TTS-83CB85AB5E741F487115F006DBDCAEC5"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "Tease",
+					"Meaning": "Tease",
+					"Style": "-",
+					"Utterance": "You remember that one time... [Make a friendly joke at their expense]",
+					"UtteranceId": "TTS-8454D2EFD4D934C98545FE5C2FFF9716"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementArnold",
+					"Meaning": "TellAgentComplement",
+					"Style": "Arnold",
+					"Utterance": "You know Arnold told me they think you're really great.",
+					"UtteranceId": "TTS-299803A9F4585932626F4CEA0FC79306"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementErnest",
+					"Meaning": "TellAgentComplement",
+					"Style": "Ernest",
+					"Utterance": "You know Ernest told me they think you're really great.",
+					"UtteranceId": "TTS-DF5F446D0528F4C856B52CEB15528038"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementHelen",
+					"Meaning": "TellAgentComplement",
+					"Style": "Helen",
+					"Utterance": "You know Helen told me they think you're really great.",
+					"UtteranceId": "TTS-C9EE2C636D8A54C248949B82FC576159"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementHugo",
+					"Meaning": "TellAgentComplement",
+					"Style": "Hugo",
+					"Utterance": "You know Hugo told me they think you're really great.",
+					"UtteranceId": "TTS-E34E2083A9F84FD55C06B5A2F152D04F"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementJoanne",
+					"Meaning": "TellAgentComplement",
+					"Style": "Joanne",
+					"Utterance": "You know Joanne told me they think you're really great.",
+					"UtteranceId": "TTS-43C06C801321391E3F694B649B29F1DD"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementJulian",
+					"Meaning": "TellAgentComplement",
+					"Style": "Julian",
+					"Utterance": "You know Julian told me they think you're really great.",
+					"UtteranceId": "TTS-9501E06500CC6D4E01F94D8D5F51D778"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementKimberly",
+					"Meaning": "TellAgentComplement",
+					"Style": "Kimberly",
+					"Utterance": "You know Kimberly told me they think you're really great.",
+					"UtteranceId": "TTS-61644FA982BEF97CBD304FE4F765EF41"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementMabel",
+					"Meaning": "TellAgentComplement",
+					"Style": "Mabel",
+					"Utterance": "You know Mabel told me they think you're really great.",
+					"UtteranceId": "TTS-1C621D8E1A8BC4302446B33083DD4BD0"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementPat",
+					"Meaning": "TellAgentComplement",
+					"Style": "Pat",
+					"Utterance": "You know Pat told me they think you're really great.",
+					"UtteranceId": "TTS-A78B68D9411DEEBF883CBE151EE75F82"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellComplementTeri",
+					"Meaning": "TellAgentComplement",
+					"Style": "Teri",
+					"Utterance": "You know Teri told me they think you're really great.",
+					"UtteranceId": "TTS-25A568F3A46607E065FD9056D23AFFBB"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikeArnold",
+					"Meaning": "TellAgentDislike",
+					"Style": "Arnold",
+					"Utterance": "You know Arnold told me they don't like you.",
+					"UtteranceId": "TTS-22F4016CC475C7762C7BA0BF125CAD7D"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikeErnest",
+					"Meaning": "TellAgentDislike",
+					"Style": "Ernest",
+					"Utterance": "You know Ernest told me they don't like you.",
+					"UtteranceId": "TTS-A431FDFDB38BCA2B0EC6DD1E866C6ACF"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikeHelen",
+					"Meaning": "TellAgentDislike",
+					"Style": "Helen",
+					"Utterance": "You know Helen told me they don't like you.",
+					"UtteranceId": "TTS-86663D6E1C5C99D14A7B6F13F76B1849"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikeHugo",
+					"Meaning": "TellAgentDislike",
+					"Style": "Hugo",
+					"Utterance": "You know Hugo told me they don't like you.",
+					"UtteranceId": "TTS-E336F132C431E081EA3D10448F2706AA"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikeJoanne",
+					"Meaning": "TellAgentDislike",
+					"Style": "Joanne",
+					"Utterance": "You know Joanne told me they don't like you.",
+					"UtteranceId": "TTS-C9305762E1389203E93EDA45658A2C2D"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikeJulian",
+					"Meaning": "TellAgentDislike",
+					"Style": "Julian",
+					"Utterance": "You know Julian told me they don't like you.",
+					"UtteranceId": "TTS-A1C2CAF74605716137BD73769F189F33"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikeKimberly",
+					"Meaning": "TellAgentDislike",
+					"Style": "Kimberly",
+					"Utterance": "You know Kimberly told me they don't like you.",
+					"UtteranceId": "TTS-A7F0087E95B8AD2FF438BE335548F5AC"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikeMabel",
+					"Meaning": "TellAgentDislike",
+					"Style": "Mabel",
+					"Utterance": "You know Mabel told me they don't like you.",
+					"UtteranceId": "TTS-FDC6EB9352503AF54E29BA7FF56920D7"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikePat",
+					"Meaning": "TellAgentDislike",
+					"Style": "Pat",
+					"Utterance": "You know Pat told me they don't like you.",
+					"UtteranceId": "TTS-2B9271AC1EADD08F01AE6269EAB34F86"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellDislikeTeri",
+					"Meaning": "TellAgentDislike",
+					"Style": "Teri",
+					"Utterance": "You know Teri told me they don't like you.",
+					"UtteranceId": "TTS-7A84E051823674ACE021AFAD9751AA48"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultArnold",
+					"Meaning": "TellAgentInsult",
+					"Style": "Arnold",
+					"Utterance": "You know Arnold told me they think you're the worst.",
+					"UtteranceId": "TTS-516C18C48DB3D80BC5E09561AD046A95"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultErnest",
+					"Meaning": "TellAgentInsult",
+					"Style": "Ernest",
+					"Utterance": "You know Ernest told me they think you're the worst.",
+					"UtteranceId": "TTS-F3244DEE810E033BCA2FF6BAF0DE22A3"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultHelen",
+					"Meaning": "TellAgentInsult",
+					"Style": "Helen",
+					"Utterance": "You know Helen told me they think you're the worst.",
+					"UtteranceId": "TTS-D9491E6D7A0E33298F5726DCA7C83A9C"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultHugo",
+					"Meaning": "TellAgentInsult",
+					"Style": "Hugo",
+					"Utterance": "You know Hugo told me they think you're the worst.",
+					"UtteranceId": "TTS-A703A26F678503191EDBDB3AAB1DAC3E"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultJoanne",
+					"Meaning": "TellAgentInsult",
+					"Style": "Joanne",
+					"Utterance": "You know Joanne told me they think you're the worst.",
+					"UtteranceId": "TTS-613E761296A257635AB411D066AF7DDA"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultJulian",
+					"Meaning": "TellAgentInsult",
+					"Style": "Julian",
+					"Utterance": "You know Julian told me they think you're the worst.",
+					"UtteranceId": "TTS-AD88C6A6C1FC2F2C95CE6C993FAFC7C1"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultKimberly",
+					"Meaning": "TellAgentInsult",
+					"Style": "Kimberly",
+					"Utterance": "You know Kimberly told me they think you're the worst.",
+					"UtteranceId": "TTS-1E3FCCF73A59A6144AB637F2E864AFBE"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultMabel",
+					"Meaning": "TellAgentInsult",
+					"Style": "Mabel",
+					"Utterance": "You know Mabel told me they think you're the worst.",
+					"UtteranceId": "TTS-B3904446E6E47FD498CE86F7D0719D2A"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultPat",
+					"Meaning": "TellAgentInsult",
+					"Style": "Pat",
+					"Utterance": "You know Pat told me they think you're the worst.",
+					"UtteranceId": "TTS-E9E82FACB9A487B8ABFB0E98B0E0C23D"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellInsultTeri",
+					"Meaning": "TellAgentInsult",
+					"Style": "Teri",
+					"Utterance": "You know Teri told me they think you're the worst.",
+					"UtteranceId": "TTS-0724EDE4ABEB0D78947FB52C5E55B11E"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikeArnold",
+					"Meaning": "TellAgentLike",
+					"Style": "Arnold",
+					"Utterance": "You know Arnold told me they like hanging out with you.",
+					"UtteranceId": "TTS-C82D14B3811ADADA30A7785DC1652155"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikeErnest",
+					"Meaning": "TellAgentLike",
+					"Style": "Ernest",
+					"Utterance": "You know Ernest told me they like hanging out with you.",
+					"UtteranceId": "TTS-343C2BA48D34D20A425E31AC37869B02"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikeHelen",
+					"Meaning": "TellAgentLike",
+					"Style": "Helen",
+					"Utterance": "You know Helen told me they like hanging out with you.",
+					"UtteranceId": "TTS-141D67755E31285A14746288A364C1BA"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikeHugo",
+					"Meaning": "TellAgentLike",
+					"Style": "Hugo",
+					"Utterance": "You know Hugo told me they like hanging out with you.",
+					"UtteranceId": "TTS-30F7A27F0174330344A9D7401F328094"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikeJoanne",
+					"Meaning": "TellAgentLike",
+					"Style": "Joanne",
+					"Utterance": "You know Joanne told me they like hanging out with you.",
+					"UtteranceId": "TTS-C7D339B15EDC79F52728AECF10CFFE2C"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikeJulian",
+					"Meaning": "TellAgentLike",
+					"Style": "Julian",
+					"Utterance": "You know Julian told me they like hanging out with you.",
+					"UtteranceId": "TTS-CBF7D294058FF18647CC214992A071DE"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikeKimberly",
+					"Meaning": "TellAgentLike",
+					"Style": "Kimberly",
+					"Utterance": "You know Kimberly told me they like hanging out with you.",
+					"UtteranceId": "TTS-0D63752B7F03102BCEB24BD04E36FD80"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikeMabel",
+					"Meaning": "TellAgentLike",
+					"Style": "Mabel",
+					"Utterance": "You know Mabel told me they like hanging out with you.",
+					"UtteranceId": "TTS-3D0394A52E0758AE488F813B2DB6A9C6"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikePat",
+					"Meaning": "TellAgentLike",
+					"Style": "Pat",
+					"Utterance": "You know Pat told me they like hanging out with you.",
+					"UtteranceId": "TTS-598D1B74544CDECDBADF4B220B336C6E"
+				}, 
+				{
+					"CurrentState": "Home",
+					"NextState": "TellLikeTeri",
+					"Meaning": "TellAgentLike",
+					"Style": "Teri",
+					"Utterance": "You know Teri told me they like hanging out with you.",
+					"UtteranceId": "TTS-8FDBC6DEFE1664601912D06A8A56A523"
+				}, 
+				{
+					"CurrentState": "Initiate",
+					"NextState": "Start",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Hey.",
+					"UtteranceId": "TTS-A83E3CE9C182279E7ACCF52F6D313BC9"
+				}, 
+				{
+					"CurrentState": "Insult",
+					"NextState": "Home",
+					"Meaning": "InsultPlayer",
+					"Style": "-",
+					"Utterance": "Yeah? Well, I might care what you thought if you weren't already so dull.",
+					"UtteranceId": "TTS-4A43C94854FFC48ACB383448C6106DA2"
+				}, 
+				{
+					"CurrentState": "Insult",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "-",
+					"Utterance": "Pfft, like it matters what you think. Just get away from me.",
+					"UtteranceId": "TTS-A15E3F52DD8EAF0CC4625FAB3F3C17A7"
+				}, 
+				{
+					"CurrentState": "Insult",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "-",
+					"Utterance": "Wow, ouch. Whatever.",
+					"UtteranceId": "TTS-5425365BBC01C45E03E8C536343C1944"
+				}, 
+				{
+					"CurrentState": "Insult",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "Um, ok then.",
+					"UtteranceId": "TTS-B46A7A6A310DB8A04AA58AFB01248542"
+				}, 
+				{
+					"CurrentState": "InsultArnold",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Arnold",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultArnold",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Arnold",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultArnold",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Arnold",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultArnold",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Arnold",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultArnold",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Arnold",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultArnold",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Arnold",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultArnold",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Arnold",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "InsultErnest",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Ernest",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultErnest",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Ernest",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultErnest",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Ernest",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultErnest",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Ernest",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultErnest",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Ernest",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultErnest",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Ernest",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultErnest",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Ernest",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "InsultHelen",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Helen",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultHelen",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Helen",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultHelen",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Helen",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultHelen",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Helen",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultHelen",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Helen",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultHelen",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Helen",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultHelen",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Helen",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "InsultHugo",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Hugo",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultHugo",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Hugo",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultHugo",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Hugo",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultHugo",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Hugo",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultHugo",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Hugo",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultHugo",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Hugo",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultHugo",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Hugo",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "InsultJoanne",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Joanne",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Joanne",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultJoanne",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Joanne",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultJoanne",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Joanne",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultJoanne",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Joanne",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Joanne",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultJoanne",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Joanne",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "InsultJulian",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Julian",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultJulian",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Julian",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultJulian",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Julian",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultJulian",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Julian",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultJulian",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Julian",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultJulian",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Julian",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultJulian",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Julian",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "InsultKimberly",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Kimberly",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Kimberly",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultKimberly",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Kimberly",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultKimberly",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Kimberly",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultKimberly",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Kimberly",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Kimberly",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultKimberly",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Kimberly",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "InsultMabel",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Mabel",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultMabel",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Mabel",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultMabel",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Mabel",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultMabel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Mabel",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultMabel",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Mabel",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultMabel",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Mabel",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultMabel",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Mabel",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "InsultPat",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Pat",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultPat",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Pat",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultPat",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Pat",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultPat",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Pat",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultPat",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Pat",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultPat",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Pat",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultPat",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Pat",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "InsultTeri",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Teri",
+					"Utterance": "Oh yeah, aren't they just the worst.",
+					"UtteranceId": "TTS-2EED3F04DC60D850EEFA6B794D452D33"
+				}, 
+				{
+					"CurrentState": "InsultTeri",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Teri",
+					"Utterance": "Actually, they're really cool. You should give them more of a chance, or at least not talk to me about it.",
+					"UtteranceId": "TTS-22C0D0747718C64840BD3FBE1743B065"
+				}, 
+				{
+					"CurrentState": "InsultTeri",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Teri",
+					"Utterance": "You know they're actually pretty cool, once you get to know them.",
+					"UtteranceId": "TTS-4E1EEDF79DAF949FD63AB4B8E96BB09B"
+				}, 
+				{
+					"CurrentState": "InsultTeri",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Teri",
+					"Utterance": "Eh, I don't know. They seem fine I guess.",
+					"UtteranceId": "TTS-5F0B3B71893DDB45788050EC30EFF26E"
+				}, 
+				{
+					"CurrentState": "InsultTeri",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Teri",
+					"Utterance": "Yeah, I get that.",
+					"UtteranceId": "TTS-200D8B12E58599F53A8259ED06BFBCF1"
+				}, 
+				{
+					"CurrentState": "InsultTeri",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Teri",
+					"Utterance": "Yeah I totally feel you.",
+					"UtteranceId": "TTS-8418F4C0C56155A822B5C4540385EDA7"
+				}, 
+				{
+					"CurrentState": "InsultTeri",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Teri",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "Joke",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "-",
+					"Utterance": "That... wasn't that funny.",
+					"UtteranceId": "TTS-2C4B68E4CCD4B5CDE45EED47AC06DC46"
+				}, 
+				{
+					"CurrentState": "Joke",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "Huh. Okay.",
+					"UtteranceId": "TTS-B177C50B09D8CC2B94C5258860C5DDF3"
+				}, 
+				{
+					"CurrentState": "Joke",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "-",
+					"Utterance": "Hey, that was pretty good!",
+					"UtteranceId": "TTS-D4FF32F402DF069CFE7B8C59144E6B5D"
+				}, 
+				{
+					"CurrentState": "Joke",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "-",
+					"Utterance": "Haha wow! That was really funny!",
+					"UtteranceId": "TTS-8E7A6EF9EDA62E7AC674F972DE8906F0"
+				}, 
+				{
+					"CurrentState": "JokeArnold",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Arnold",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Arnold's expense]",
+					"UtteranceId": "TTS-7B49DB74726E67AC57D47770282E6FC8"
+				}, 
+				{
+					"CurrentState": "JokeArnold",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Arnold",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokeArnold",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Arnold",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokeArnold",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Arnold",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokeArnold",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Arnold",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokeArnold",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Arnold",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokeArnold",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Arnold",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "JokeErnest",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Ernest",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Ernest's expense]",
+					"UtteranceId": "TTS-1CA1ABBF559C90EA0576AF24A944866D"
+				}, 
+				{
+					"CurrentState": "JokeErnest",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Ernest",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokeErnest",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Ernest",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokeErnest",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Ernest",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokeErnest",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Ernest",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokeErnest",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Ernest",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokeErnest",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Ernest",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "JokeHelen",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Helen",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Helen's expense]",
+					"UtteranceId": "TTS-D106EB4CD7059994E02F6219BC1510C2"
+				}, 
+				{
+					"CurrentState": "JokeHelen",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Helen",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokeHelen",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Helen",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokeHelen",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Helen",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokeHelen",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Helen",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokeHelen",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Helen",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokeHelen",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Helen",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "JokeHugo",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Hugo",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Hugo's expense]",
+					"UtteranceId": "TTS-47DFE5E0BD7044101470CE4E6E3B51A0"
+				}, 
+				{
+					"CurrentState": "JokeHugo",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Hugo",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokeHugo",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Hugo",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokeHugo",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Hugo",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokeHugo",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Hugo",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokeHugo",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Hugo",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokeHugo",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Hugo",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "JokeJoanne",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Joanne",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Joanne's expense]",
+					"UtteranceId": "TTS-AF9EEB1EB163D6838855E180F60F131C"
+				}, 
+				{
+					"CurrentState": "JokeJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Joanne",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokeJoanne",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Joanne",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokeJoanne",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Joanne",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokeJoanne",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Joanne",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokeJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Joanne",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokeJoanne",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Joanne",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "JokeJulian",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Julian",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Julian's expense]",
+					"UtteranceId": "TTS-080727684152CAB2BA6D4E54FD97409F"
+				}, 
+				{
+					"CurrentState": "JokeJulian",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Julian",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokeJulian",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Julian",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokeJulian",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Julian",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokeJulian",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Julian",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokeJulian",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Julian",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokeJulian",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Julian",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "JokeKimberly",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Kimberly",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Kimberly's expense]",
+					"UtteranceId": "TTS-7D0A881A25B6BB518F737FF4AD892EB3"
+				}, 
+				{
+					"CurrentState": "JokeKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Kimberly",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokeKimberly",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Kimberly",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokeKimberly",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Kimberly",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokeKimberly",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Kimberly",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokeKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Kimberly",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokeKimberly",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Kimberly",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "JokeMabel",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Mabel",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Mabel's expense]",
+					"UtteranceId": "TTS-8C892FA2CC713CD33EA7FFB2AB5E4960"
+				}, 
+				{
+					"CurrentState": "JokeMabel",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Mabel",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokeMabel",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Mabel",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokeMabel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Mabel",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokeMabel",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Mabel",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokeMabel",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Mabel",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokeMabel",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Mabel",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "JokePat",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Pat",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Pat's expense]",
+					"UtteranceId": "TTS-5D273B36B86DE719890D0BAFBFA3CB6A"
+				}, 
+				{
+					"CurrentState": "JokePat",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Pat",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokePat",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Pat",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokePat",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Pat",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokePat",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Pat",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokePat",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Pat",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokePat",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Pat",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "JokeTeri",
+					"NextState": "Home",
+					"Meaning": "JokeAgent",
+					"Style": "Teri",
+					"Utterance": "Haha yeah! And guess what? [They return your joke with another at Teri's expense]",
+					"UtteranceId": "TTS-AB3FB48A8681FD4DBB9339C44A0CA816"
+				}, 
+				{
+					"CurrentState": "JokeTeri",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Teri",
+					"Utterance": "That was really mean, and not funny at all.",
+					"UtteranceId": "TTS-C1DA5DAA62F4B89ED623362A98F5A76F"
+				}, 
+				{
+					"CurrentState": "JokeTeri",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Teri",
+					"Utterance": "That… was kind of mean.",
+					"UtteranceId": "TTS-63F42E467B84DF06EB632B5D82B42126"
+				}, 
+				{
+					"CurrentState": "JokeTeri",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Teri",
+					"Utterance": "Huh, yeah.",
+					"UtteranceId": "TTS-2D4C0D96F57BE698645FF4EEF104A7E3"
+				}, 
+				{
+					"CurrentState": "JokeTeri",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Teri",
+					"Utterance": "Heh, yeah that was funny.",
+					"UtteranceId": "TTS-F52D5AE796B49F314B8F6FC5A530BCFB"
+				}, 
+				{
+					"CurrentState": "JokeTeri",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Teri",
+					"Utterance": "Ha! That was pretty good!",
+					"UtteranceId": "TTS-F5B5096FAB44ABB3F61C75C2FA2DADD7"
+				}, 
+				{
+					"CurrentState": "JokeTeri",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Teri",
+					"Utterance": "They're actually really great. Don't bad mouth them to me anymore.",
+					"UtteranceId": "TTS-51D70C930D9743758627D9641BC1C6DB"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Home",
+					"Meaning": "ColdGreet",
+					"Style": "-",
+					"Utterance": "Oh, it's you.",
+					"UtteranceId": "TTS-C04C1DE87B8A558CBD704E5010FB7885"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Home",
+					"Meaning": "DownGreet",
+					"Style": "-",
+					"Utterance": "Oh, hey.",
+					"UtteranceId": "TTS-ED5A06A3CD039671096F3E2893E00D2B"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "Hey.",
+					"UtteranceId": "TTS-A83E3CE9C182279E7ACCF52F6D313BC9"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Home",
+					"Meaning": "WarmGreet",
+					"Style": "-",
+					"Utterance": "Hey, good to see you.",
+					"UtteranceId": "TTS-6475577B077F102107FD240977990C97"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "Home",
+					"Meaning": "WarmGreet",
+					"Style": "-",
+					"Utterance": "Hey, good to see you.",
+					"UtteranceId": "TTS-6475577B077F102107FD240977990C97"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "InsultPlayer",
+					"Style": "-",
+					"Utterance": "Oh yeah, well you're a jerk with bad hair.",
+					"UtteranceId": "TTS-89BA76A1994494DC5115662672F9ED85"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "-",
+					"Utterance": "Pfft, whatever.",
+					"UtteranceId": "TTS-AFBC41A8FD26DE9489B443ADF11F1781"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "-",
+					"Utterance": "[They roll their eyes and frown]",
+					"UtteranceId": "TTS-6C5E5A3C8F961A2E054672D077117E22"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "-",
+					"Utterance": "[They shrug]",
+					"UtteranceId": "TTS-D68B50BFAFBA2A8DB8029123522B3EE2"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "-",
+					"Utterance": "Oh ha, ha. That was pretty good, though.",
+					"UtteranceId": "TTS-34643CDA09B92C4873D4035D2F894352"
+				}, 
+				{
+					"CurrentState": "Tease",
+					"NextState": "Home",
+					"Meaning": "Tease",
+					"Style": "-",
+					"Utterance": "Oh ha, ha. You know, you don't come out of that story looking too good yourself. [They smile and joke back with you]",
+					"UtteranceId": "TTS-22113C2F7B2E89EA8F1C76BC5CDFB3B8"
+				}, 
+				{
+					"CurrentState": "TellComplementArnold",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Arnold",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementArnold",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Arnold",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementArnold",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Arnold",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementArnold",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Arnold",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementArnold",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Arnold",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellComplementErnest",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Ernest",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementErnest",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Ernest",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementErnest",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Ernest",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementErnest",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Ernest",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementErnest",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Ernest",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellComplementHelen",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Helen",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementHelen",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Helen",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementHelen",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Helen",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementHelen",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Helen",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementHelen",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Helen",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellComplementHugo",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Hugo",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementHugo",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Hugo",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementHugo",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Hugo",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementHugo",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Hugo",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementHugo",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Hugo",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Joanne",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Joanne",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Joanne",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Joanne",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementJoanne",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Joanne",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellComplementJulian",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Julian",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementJulian",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Julian",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementJulian",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Julian",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementJulian",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Julian",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementJulian",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Julian",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Kimberly",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Kimberly",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Kimberly",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Kimberly",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementKimberly",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Kimberly",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellComplementMabel",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Mabel",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementMabel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Mabel",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementMabel",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Mabel",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementMabel",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Mabel",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementMabel",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Mabel",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellComplementPat",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Pat",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementPat",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Pat",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementPat",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Pat",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementPat",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Pat",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementPat",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Pat",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellComplementTeri",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Teri",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellComplementTeri",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Teri",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellComplementTeri",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Teri",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellComplementTeri",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Teri",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellComplementTeri",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Teri",
+					"Utterance": "Wow, that's really nice! I think they're great too!",
+					"UtteranceId": "TTS-D80D592C482134E5DEE0785D51469E6C"
+				}, 
+				{
+					"CurrentState": "TellDislikeArnold",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Arnold",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikeArnold",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Arnold",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikeArnold",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Arnold",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikeArnold",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Arnold",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikeArnold",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Arnold",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellDislikeErnest",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Ernest",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikeErnest",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Ernest",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikeErnest",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Ernest",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikeErnest",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Ernest",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikeErnest",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Ernest",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellDislikeHelen",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Helen",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikeHelen",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Helen",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikeHelen",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Helen",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikeHelen",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Helen",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikeHelen",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Helen",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellDislikeHugo",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Hugo",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikeHugo",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Hugo",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikeHugo",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Hugo",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikeHugo",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Hugo",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikeHugo",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Hugo",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellDislikeJoanne",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Joanne",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikeJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Joanne",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikeJoanne",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Joanne",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikeJoanne",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Joanne",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikeJoanne",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Joanne",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellDislikeJulian",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Julian",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikeJulian",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Julian",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikeJulian",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Julian",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikeJulian",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Julian",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikeJulian",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Julian",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellDislikeKimberly",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Kimberly",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikeKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Kimberly",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikeKimberly",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Kimberly",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikeKimberly",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Kimberly",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikeKimberly",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Kimberly",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellDislikeMabel",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Mabel",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikeMabel",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Mabel",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikeMabel",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Mabel",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikeMabel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Mabel",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikeMabel",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Mabel",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellDislikePat",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Pat",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikePat",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Pat",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikePat",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Pat",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikePat",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Pat",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikePat",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Pat",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellDislikeTeri",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Teri",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellDislikeTeri",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Teri",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellDislikeTeri",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Teri",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellDislikeTeri",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Teri",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellDislikeTeri",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Teri",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInnsultArnold",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Arnold",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInnsultArnold",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Arnold",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInnsultArnold",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Arnold",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInnsultArnold",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Arnold",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInnsultArnold",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Arnold",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInsultErnest",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Ernest",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInsultErnest",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Ernest",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInsultErnest",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Ernest",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInsultErnest",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Ernest",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInsultErnest",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Ernest",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInsultHelen",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Helen",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInsultHelen",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Helen",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInsultHelen",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Helen",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInsultHelen",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Helen",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInsultHelen",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Helen",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInsultHugo",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Hugo",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInsultHugo",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Hugo",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInsultHugo",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Hugo",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInsultHugo",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Hugo",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInsultHugo",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Hugo",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInsultJoanne",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Joanne",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInsultJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Joanne",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInsultJoanne",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Joanne",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInsultJoanne",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Joanne",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInsultJoanne",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Joanne",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInsultJulian",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Julian",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInsultJulian",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Julian",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInsultJulian",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Julian",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInsultJulian",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Julian",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInsultJulian",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Julian",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInsultKimberly",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Kimberly",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInsultKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Kimberly",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInsultKimberly",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Kimberly",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInsultKimberly",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Kimberly",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInsultKimberly",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Kimberly",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInsultMabel",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Mabel",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInsultMabel",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Mabel",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInsultMabel",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Mabel",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInsultMabel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Mabel",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInsultMabel",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Mabel",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInsultPat",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Pat",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInsultPat",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Pat",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInsultPat",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Pat",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInsultPat",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Pat",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInsultPat",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Pat",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellInsultTeri",
+					"NextState": "Home",
+					"Meaning": "InsultAgent",
+					"Style": "Teri",
+					"Utterance": "Ugh, that's just like them!",
+					"UtteranceId": "TTS-4F1EEF722105B1FFC50966848857C96C"
+				}, 
+				{
+					"CurrentState": "TellInsultTeri",
+					"NextState": "Home",
+					"Meaning": "StrongNegative",
+					"Style": "Teri",
+					"Utterance": "Wow, that's really rude.",
+					"UtteranceId": "TTS-F15033BA159A9CAB50F40CD1FD674BA2"
+				}, 
+				{
+					"CurrentState": "TellInsultTeri",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Teri",
+					"Utterance": "Huh, that's kind of rude…",
+					"UtteranceId": "TTS-537BDC0208E5E007BC1E560A8671A0F2"
+				}, 
+				{
+					"CurrentState": "TellInsultTeri",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Teri",
+					"Utterance": "Eh, I don't really care.",
+					"UtteranceId": "TTS-151E759ABD623A93E18846ABBF0164D4"
+				}, 
+				{
+					"CurrentState": "TellInsultTeri",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Teri",
+					"Utterance": "Huh, well at least I know we feel the same way about each other.",
+					"UtteranceId": "TTS-D2E853CD40DE7CBCB5C5BBB1751F08F4"
+				}, 
+				{
+					"CurrentState": "TellLikeArnold",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Arnold",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeArnold",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Arnold",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeArnold",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Arnold",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeArnold",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Arnold",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeArnold",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Arnold",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeErnest",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Ernest",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeErnest",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Ernest",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeErnest",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Ernest",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeErnest",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Ernest",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeErnest",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Ernest",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeHelen",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Helen",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeHelen",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Helen",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeHelen",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Helen",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeHelen",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Helen",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeHelen",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Helen",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeHugo",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Hugo",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeHugo",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Hugo",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeHugo",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Hugo",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeHugo",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Hugo",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeHugo",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Hugo",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeJoanne",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Joanne",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeJoanne",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Joanne",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeJoanne",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Joanne",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeJoanne",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Joanne",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeJoanne",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Joanne",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeJulian",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Julian",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeJulian",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Julian",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeJulian",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Julian",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeJulian",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Julian",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeJulian",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Julian",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Kimberly",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Kimberly",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Kimberly",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Kimberly",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Kimberly",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Mabel",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Mabel",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Mabel",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Mabel",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Mabel",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Pat",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Pat",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Pat",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Pat",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Pat",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeTeri",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Teri",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeTeri",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Teri",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeTeri",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Teri",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeTeri",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Teri",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeTeri",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Teri",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}]
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "IntegratedAuthoringTool.IntegratedAuthoringToolAsset, IntegratedAuthoringTool, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

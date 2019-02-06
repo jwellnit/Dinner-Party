@@ -1,0 +1,2138 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"Effects":
+				{
+					"dictionary": [
+						{
+							"key": "Event(Action-End, [x], Speak(*, [ns], *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, Complement, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy([x])",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "Complement",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], ComplementPlayer, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementArnold, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementErnest, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementHelen, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementHugo, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementJoanne, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementJulian, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementKimberly, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementMabel, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementPat, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementTeri, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, Insult, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy([x])",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "Insult",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], InsultPlayer, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultArnold, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultErnest, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultHelen, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultHugo, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultJoanne, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultJulian, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultKimberly, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultMabel, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultPat, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultTeri, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeArnold, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeErnest, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeHelen, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeHugo, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeJoanne, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeJulian, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeKimberly, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeMabel, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokePat, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeTeri, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Tease, [ns], InsultPlayer, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultErnest, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeErnest, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHelen, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHelen, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHugo, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHugo, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJoanne, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJoanne, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJulian, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJulian, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultKimberly, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeKimberly, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultMabel, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeMabel, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultPat, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikePat, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultTeri, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeTeri, [ns], InsultAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementArnold, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Arnold)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementArnold",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeArnold, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Arnold)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikeArnold",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultArnold, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Arnold)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultArnold",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeArnold, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Arnold)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikeArnold",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementErnest, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Ernest)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementErnest",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeErnest, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Ernest)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikeErnest",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultErnest, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Ernest)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultErnest",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeErnest, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Ernest)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikeErnest",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementHelen, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Helen)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementHelen",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeHelen, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Helen)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikeHelen",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultHelen, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Helen)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultHelen",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeHelen, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Helen)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikeHelen",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementHugo, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Hugo)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementHugo",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeHugo, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Hugo)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikeHugo",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultHugo, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Hugo)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultHugo",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeHugo, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Hugo)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikeHugo",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementJoanne, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Joanne)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementJoanne",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeJoanne, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Joanne)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikeJoanne",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultJoanne, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Joanne)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultJoanne",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeJoanne, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Joanne)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikeJoanne",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementJulian, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Julian)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementJulian",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeJulian, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Julian)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikeJulian",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultJulian, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Julian)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultJulian",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeJulian, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Julian)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikeJulian",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementKimberly, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Kimberly)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementKimberly",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeKimberly, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Kimberly)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikeKimberly",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultKimberly, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Kimberly)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultKimberly",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeKimberly, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Kimberly)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikeKimberly",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementMabel, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Mabel)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementMabel",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeMabel, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Mabel)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikeMabel",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultMabel, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Mabel)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultMabel",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeMabel, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Mabel)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikeMabel",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementPat, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Pat)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementPat",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikePat, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Pat)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikePat",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultPat, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Pat)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultPat",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikePat, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Pat)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikePat",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementTeri, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Teri)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellComplementTeri",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeTeri, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "ComplementedBy(Teri)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellLikeTeri",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultTeri, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Teri)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellInsultTeri",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeTeri, *, *), [t])",
+							"value": [
+								{
+									"PropertyName": "InsultedBy(Teri)",
+									"NewValue": true,
+									"ObserverAgent": "[t]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "TellDislikeTeri",
+									"ObserverAgent": "[t]"
+								}]
+						}]
+				},
+			"Priorities":
+				{
+					"dictionary": [
+						{
+							"key": "Event(Action-End, [x], Speak(*, [ns], *, *), [t])",
+							"value": 1
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, Complement, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], ComplementPlayer, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementArnold, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementErnest, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementHelen, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementHugo, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementJoanne, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementJulian, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementKimberly, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementMabel, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementPat, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(ComplementTeri, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, Insult, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], InsultPlayer, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultArnold, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultErnest, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultHelen, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultHugo, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultJoanne, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultJulian, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultKimberly, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultMabel, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultPat, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(InsultTeri, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeArnold, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeErnest, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeHelen, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeHugo, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeJoanne, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeJulian, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeKimberly, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeMabel, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokePat, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Tease, [ns], InsultPlayer, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(JokeTeri, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultErnest, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeErnest, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHelen, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHelen, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHugo, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHugo, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJoanne, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJoanne, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJulian, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJulian, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultKimberly, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeKimberly, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultMabel, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeMabel, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultPat, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikePat, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultTeri, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeTeri, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementArnold, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeArnold, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultArnold, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeArnold, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementErnest, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeErnest, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultErnest, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeErnest, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementHelen, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeHelen, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultHelen, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeHelen, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementHugo, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeHugo, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultHugo, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeHugo, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementJoanne, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeJoanne, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultJoanne, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeJoanne, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementJulian, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeJulian, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultJulian, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeJulian, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementKimberly, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeKimberly, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultKimberly, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeKimberly, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementMabel, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeMabel, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultMabel, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeMabel, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementPat, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikePat, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultPat, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikePat, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellComplementTeri, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellLikeTeri, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellInsultTeri, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Home, TellDislikeTeri, *, *), [t])",
+							"value": 2
+						}]
+				}
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "WorldModel.WorldModelAsset, World_Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

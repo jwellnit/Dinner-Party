@@ -1,0 +1,92 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"KnowledgeBase":
+				{
+					"Perspective": "Arnold",
+					"Knowledge":
+						{
+							"SELF":
+								{
+									"InsultedBy(Player)": "False, 1",
+									"InsultedBy(Mabel)": "False, 1",
+									"InsultedBy(Ernest)": "False, 1",
+									"InsultedBy(Kimberly)": "False, 1",
+									"InsultedBy(Teri)": "False, 1",
+									"InsultedBy(Julian)": "False, 1",
+									"InsultedBy(Helen)": "False, 1",
+									"InsultedBy(Joanne)": "False, 1",
+									"InsultedBy(Pat)": "False, 1",
+									"InsultedBy(Hugo)": "False, 1",
+									"ComplementedBy(Player)": "False, 1",
+									"ComplementedBy(Mabel)": "False, 1",
+									"ComplementedBy(Ernest)": "False, 1",
+									"ComplementedBy(Kimberly)": "False, 1",
+									"ComplementedBy(Teri)": "False, 1",
+									"ComplementedBy(Julian)": "False, 1",
+									"ComplementedBy(Helen)": "False, 1",
+									"ComplementedBy(Joanne)": "False, 1",
+									"ComplementedBy(Pat)": "False, 1",
+									"ComplementedBy(Hugo)": "False, 1",
+									"RelationshipDelta(Player)": "0, 1",
+									"RelationshipDelta(Mabel)": "0, 1",
+									"RelationshipDelta(Ernest)": "0, 1",
+									"RelationshipDelta(Kimberly)": "0, 1",
+									"RelationshipDelta(Teri)": "0, 1",
+									"RelationshipDelta(Julian)": "0, 1",
+									"RelationshipDelta(Helen)": "0, 1",
+									"RelationshipDelta(Joanne)": "0, 1",
+									"RelationshipDelta(Pat)": "0, 1",
+									"RelationshipDelta(Hugo)": "0, 1",
+									"Relationship(Player)": "0, 1",
+									"Relationship(Mabel)": "-1, 1",
+									"Relationship(Ernest)": "-1, 1",
+									"Relationship(Kimberly)": "-1, 1",
+									"Relationship(Teri)": "0, 1",
+									"Relationship(Julian)": "-1, 1",
+									"Relationship(Helen)": "1, 1",
+									"Relationship(Joanne)": "-1, 1",
+									"Relationship(Pat)": "-1, 1",
+									"Relationship(Hugo)": "-2, 1",
+									"Late(Arnold)": "True, 1"
+								}
+						}
+				},
+			"BodyName": null,
+			"VoiceName": null,
+			"EmotionalAppraisalAssetSource": "GenericEA.ea",
+			"EmotionalDecisionMakingSource": "GenericEDM.edm",
+			"SocialImportanceAssetSource": null,
+			"CommeillFautAssetSource": null,
+			"EmotionalState":
+				{
+					"Mood": 0,
+					"initialTick": 0,
+					"EmotionalPool": [],
+					"AppraisalConfiguration":
+						{
+							"HalfLifeDecayConstant": 0.5,
+							"EmotionInfluenceOnMoodFactor": 0.3,
+							"MoodInfluenceOnEmotionFactor": 0.3,
+							"MinimumMoodValueForInfluencingEmotions": 0.5,
+							"EmotionalHalfLifeDecayTime": 15,
+							"MoodHalfLifeDecayTime": 60
+						}
+				},
+			"AutobiographicMemory":
+				{
+					"Tick": 0,
+					"records": []
+				},
+			"OtherAgents":
+				{
+					"dictionary": []
+				}
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "RolePlayCharacter.RolePlayCharacterAsset, RolePlayCharacter, Version=1.5.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

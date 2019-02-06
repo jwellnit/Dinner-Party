@@ -1102,7 +1102,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementArnold",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1116,7 +1116,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikeArnold",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1130,7 +1130,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultArnold",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1144,7 +1144,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikeArnold",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1158,7 +1158,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementErnest",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1172,7 +1172,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikeErnest",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1186,7 +1186,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultErnest",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1200,7 +1200,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikeErnest",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1214,7 +1214,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementHelen",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1228,7 +1228,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikeHelen",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1242,7 +1242,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultHelen",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1256,7 +1256,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikeHelen",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1270,7 +1270,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementHugo",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1284,7 +1284,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikeHugo",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1298,7 +1298,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultHugo",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1312,7 +1312,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikeHugo",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1326,7 +1326,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementJoanne",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1340,7 +1340,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikeJoanne",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1354,7 +1354,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultJoanne",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1368,7 +1368,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikeJoanne",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1382,7 +1382,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementJulian",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1396,7 +1396,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikeJulian",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1410,7 +1410,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultJulian",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1424,7 +1424,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikeJulian",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1438,7 +1438,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementKimberly",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1452,7 +1452,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikeKimberly",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1466,7 +1466,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultKimberly",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1480,7 +1480,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikeKimberly",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1494,7 +1494,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementMabel",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1508,7 +1508,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikeMabel",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1522,7 +1522,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultMabel",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1536,7 +1536,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikeMabel",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1550,7 +1550,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementPat",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1564,7 +1564,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikePat",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1578,7 +1578,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultPat",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1592,7 +1592,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikePat",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1606,7 +1606,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellComplementTeri",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1620,7 +1620,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellLikeTeri",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1634,7 +1634,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellInsultTeri",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
@@ -1648,7 +1648,7 @@
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "Complement",
+									"NewValue": "TellDislikeTeri",
 									"ObserverAgent": "[t]"
 								}]
 						}]
