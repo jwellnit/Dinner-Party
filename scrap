@@ -1,0 +1,73 @@
+,
+{
+  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], ComplementAgent, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], StrongPositive, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], MildPositive, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], Neutral, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], MildNegative, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], ComplementAgent, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], StrongPositive, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], MildPositive, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], Neutral, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], MildNegative, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], InsultAgent, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], StrongNegative, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], MildNegative, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], Neutral, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], InsultAgent, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], StrongNegative, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], MildNegative, *), [t])",
+  "value": 2
+},
+{
+  "key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], Neutral, *), [t])",
+  "value": 2
+}
