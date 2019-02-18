@@ -344,1204 +344,1404 @@
 				  "Priority": 4
 				},
 				{
-					"Action": "Speak(ComplementArnold, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) > 0", "Relationship(Arnold) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) < 0", "Relationship(Arnold) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) >= 5", "Relationship(Arnold) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) <= -5", "Relationship(Arnold) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) >= 5", "Relationship(Arnold) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) <= -5", "Relationship(Arnold) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementArnold, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) > 0", "Relationship(Ernest) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) < 0", "Relationship(Ernest) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) >= 5", "Relationship(Ernest) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) <= -5", "Relationship(Ernest) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) >= 5", "Relationship(Ernest) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) <= -5", "Relationship(Ernest) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementErnest, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) > 0", "Relationship(Helen) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) < 0", "Relationship(Helen) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) >= 5", "Relationship(Helen) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) <= -5", "Relationship(Helen) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) >= 5", "Relationship(Helen) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) <= -5", "Relationship(Helen) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementHelen, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) > 0", "Relationship(Hugo) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) < 0", "Relationship(Hugo) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) >= 5", "Relationship(Hugo) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) <= -5", "Relationship(Hugo) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) >= 5", "Relationship(Hugo) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) <= -5", "Relationship(Hugo) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementHugo, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) > 0", "Relationship(Joanne) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) < 0", "Relationship(Joanne) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) >= 5", "Relationship(Joanne) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) <= -5", "Relationship(Joanne) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) >= 5", "Relationship(Joanne) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) <= -5", "Relationship(Joanne) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementJoanne, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) > 0", "Relationship(Julian) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) < 0", "Relationship(Julian) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) >= 5", "Relationship(Julian) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) <= -5", "Relationship(Julian) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) >= 5", "Relationship(Julian) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) <= -5", "Relationship(Julian) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementJulian, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) > 0", "Relationship(Kimberly) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) < 0", "Relationship(Kimberly) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) >= 5", "Relationship(Kimberly) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) <= -5", "Relationship(Kimberly) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) >= 5", "Relationship(Kimberly) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) <= -5", "Relationship(Kimberly) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementKimberly, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) > 0", "Relationship(Mabel) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) < 0", "Relationship(Mabel) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) >= 5", "Relationship(Mabel) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) <= -5", "Relationship(Mabel) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) >= 5", "Relationship(Mabel) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) <= -5", "Relationship(Mabel) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementMabel, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementPat, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) > 0", "Relationship(Pat) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementPat, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementPat, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) < 0", "Relationship(Pat) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementPat, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementPat, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) >= 5", "Relationship(Pat) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementPat, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementPat, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) <= -5", "Relationship(Pat) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementPat, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementPat, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) >= 5", "Relationship(Pat) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementPat, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementPat, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) <= -5", "Relationship(Pat) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementPat, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) > 0", "Relationship(Teri) >= 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, MildPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) > 0"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) < 0", "Relationship(Teri) <= 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, MildNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
-						},
-					"Priority": 3
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) >= 5", "Relationship(Teri) >= 0"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, StrongPositive, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) > 1"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) <= -5", "Relationship(Teri) <= 0", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, StrongNegative, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) <= -1", "PersonalityFactor(SELF, Agreeableness) < 50"]
-						},
-					"Priority": 4
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) >= 5", "Relationship(Teri) >= 1"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, ComplementAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) >= 2"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) <= -5", "Relationship(Teri) <= -1", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
-				},
-				{
-					"Action": "Speak(ComplementTeri, *, InsultAgent, *)",
-					"Target": "Player",
-					"Layer": "-",
-					"Conditions":
-						{
-							"Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) <= -2", "PersonalityFactor(SELF, Agreeableness) < 25"]
-						},
-					"Priority": 5
+				  "Action": "Speak(ComplementArnold, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) > 0", "Relationship(Arnold) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) < 0", "Relationship(Arnold) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) >= 5", "Relationship(Arnold) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) > 0", "Relationship(Arnold) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) <= -5", "Relationship(Arnold) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) <= 0", "Relationship(Arnold) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Relationship(Arnold) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) >= 5", "Relationship(Arnold) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) >= 0", "Relationship(Arnold) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) <= -5", "Relationship(Arnold) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementArnold, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementArnold", "Mood(SELF) <= 0", "Relationship(Arnold) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) > 0", "Relationship(Ernest) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) < 0", "Relationship(Ernest) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) >= 5", "Relationship(Ernest) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) > 0", "Relationship(Ernest) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) <= -5", "Relationship(Ernest) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) <= 0", "Relationship(Ernest) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Relationship(Ernest) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) >= 5", "Relationship(Ernest) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) >= 0", "Relationship(Ernest) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) <= -5", "Relationship(Ernest) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementErnest, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementErnest", "Mood(SELF) <= 0", "Relationship(Ernest) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) > 0", "Relationship(Helen) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) < 0", "Relationship(Helen) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) >= 5", "Relationship(Helen) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) > 0", "Relationship(Helen) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) <= -5", "Relationship(Helen) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) <= 0", "Relationship(Helen) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Relationship(Helen) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) >= 5", "Relationship(Helen) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) >= 0", "Relationship(Helen) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) <= -5", "Relationship(Helen) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementHelen, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHelen", "Mood(SELF) <= 0", "Relationship(Helen) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) > 0", "Relationship(Hugo) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) < 0", "Relationship(Hugo) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) >= 5", "Relationship(Hugo) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) > 0", "Relationship(Hugo) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) <= -5", "Relationship(Hugo) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) <= 0", "Relationship(Hugo) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Relationship(Hugo) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) >= 5", "Relationship(Hugo) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) >= 0", "Relationship(Hugo) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) <= -5", "Relationship(Hugo) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementHugo, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementHugo", "Mood(SELF) <= 0", "Relationship(Hugo) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) > 0", "Relationship(Joanne) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) < 0", "Relationship(Joanne) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) >= 5", "Relationship(Joanne) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) > 0", "Relationship(Joanne) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) <= -5", "Relationship(Joanne) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) <= 0", "Relationship(Joanne) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Relationship(Joanne) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) >= 5", "Relationship(Joanne) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) >= 0", "Relationship(Joanne) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) <= -5", "Relationship(Joanne) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementJoanne, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJoanne", "Mood(SELF) <= 0", "Relationship(Joanne) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) > 0", "Relationship(Julian) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) < 0", "Relationship(Julian) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) >= 5", "Relationship(Julian) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) > 0", "Relationship(Julian) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) <= -5", "Relationship(Julian) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) <= 0", "Relationship(Julian) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Relationship(Julian) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) >= 5", "Relationship(Julian) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) >= 0", "Relationship(Julian) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) <= -5", "Relationship(Julian) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementJulian, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementJulian", "Mood(SELF) <= 0", "Relationship(Julian) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) > 0", "Relationship(Kimberly) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) < 0", "Relationship(Kimberly) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) >= 5", "Relationship(Kimberly) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) > 0", "Relationship(Kimberly) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) <= -5", "Relationship(Kimberly) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) <= 0", "Relationship(Kimberly) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Relationship(Kimberly) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) >= 5", "Relationship(Kimberly) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) >= 0", "Relationship(Kimberly) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) <= -5", "Relationship(Kimberly) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementKimberly, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementKimberly", "Mood(SELF) <= 0", "Relationship(Kimberly) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) > 0", "Relationship(Mabel) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) < 0", "Relationship(Mabel) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) >= 5", "Relationship(Mabel) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) > 0", "Relationship(Mabel) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) <= -5", "Relationship(Mabel) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) <= 0", "Relationship(Mabel) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Relationship(Mabel) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) >= 5", "Relationship(Mabel) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) >= 0", "Relationship(Mabel) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) <= -5", "Relationship(Mabel) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementMabel, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementMabel", "Mood(SELF) <= 0", "Relationship(Mabel) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) > 0", "Relationship(Pat) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) < 0", "Relationship(Pat) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) >= 5", "Relationship(Pat) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) > 0", "Relationship(Pat) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) <= -5", "Relationship(Pat) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) <= 0", "Relationship(Pat) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Relationship(Pat) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) >= 5", "Relationship(Pat) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) >= 0", "Relationship(Pat) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) <= -5", "Relationship(Pat) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementPat, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementPat", "Mood(SELF) <= 0", "Relationship(Pat) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) > 0", "Relationship(Teri) > -3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, MildPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) >= 3"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) < 0", "Relationship(Teri) < 3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, MildNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) <= -3", "PersonalityFactor(SELF, Agreeableness) < 75"]
+				    },
+				  "Priority": 3
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) >= 5", "Relationship(Teri) > -3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) > 0", "Relationship(Teri) >= 3"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, StrongPositive, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) >= 6"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) <= -5", "Relationship(Teri) < 3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) <= 0", "Relationship(Teri) <= -3", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, StrongNegative, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Relationship(Teri) <= -6", "PersonalityFactor(SELF, Agreeableness) < 50"]
+				    },
+				  "Priority": 4
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) >= 5", "Relationship(Teri) >= 3"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, ComplementAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) >= 0", "Relationship(Teri) >= 6"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) <= -5", "Relationship(Teri) <= -3", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
+				},
+				{
+				  "Action": "Speak(ComplementTeri, *, InsultAgent, *)",
+				  "Target": "Player",
+				  "Layer": "-",
+				  "Conditions":
+				    {
+				      "Set": ["DialogueState(Player) = ComplementTeri", "Mood(SELF) <= 0", "Relationship(Teri) <= -6", "PersonalityFactor(SELF, Agreeableness) < 25"]
+				    },
+				  "Priority": 5
 				},
 				{
 				  "Action": "Speak(Insult, *, Surprised, *)",

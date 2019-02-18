@@ -1,73 +1,151 @@
 ,
 {
-  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], ComplementAgent, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "Mood(SELF) >= 5", "Relationship(Arnold) > 0"]
+    },
+  "Priority": 5
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], StrongPositive, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "Mood(SELF) > 0", "Relationship(Player) > 0", "Relationship(Arnold) > 0"]
+    },
+  "Priority": 5
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], MildPositive, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) >= 25", "Relationship(Player) > 1", "Relationship(Arnold) > 0"]
+    },
+  "Priority": 5
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], Neutral, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) >= 50", "Relationship(Arnold) > 0"]
+    },
+  "Priority": 5
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], MildNegative, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "Mood(SELF) > 0", "Relationship(Arnold) > 0"]
+    },
+  "Priority": 4
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], ComplementAgent, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "Relationship(Player) > 0", "Relationship(Arnold) > 0"]
+    },
+  "Priority": 4
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], StrongPositive, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) >= 25", "Relationship(Arnold) > 0"]
+    },
+  "Priority": 4
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], MildPositive, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, ComplimentAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "Relationship(Arnold) > 0"]
+    },
+  "Priority": 3
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], Neutral, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, MildPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 75", "Relationship(Arnold) < 0"]
+    },
+  "Priority": 3
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], MildNegative, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, MildPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 75", "Relationship(Player) > 0", "Relationship(Arnold) <= 0"]
+    },
+  "Priority": 3
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], InsultAgent, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, StrongPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 50", "Relationship(Arnold) < -1"]
+    },
+  "Priority": 4
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], StrongNegative, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, StrongPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 50", "Relationship(Player) > 0", "Relationship(Arnold) < 0"]
+    },
+  "Priority": 4
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], MildNegative, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 25", "Relationship(Player) > 0", "Relationship(Arnold) < 0", "Mood(SELF) > 0"]
+    },
+  "Priority": 5
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], Neutral, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 25", "Relationship(Arnold) < -1", "Mood(SELF) > 0"]
+    },
+  "Priority": 5
 },
 {
-  "key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], InsultAgent, *), [t])",
-  "value": 2
-},
-{
-  "key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], StrongNegative, *), [t])",
-  "value": 2
-},
-{
-  "key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], MildNegative, *), [t])",
-  "value": 2
-},
-{
-  "key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], Neutral, *), [t])",
-  "value": 2
+  "Action": "Speak(InsultArnold, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 25", "Relationship(Arnold) < 0", "Mood(SELF) >= 5"]
+    },
+  "Priority": 5
 }
