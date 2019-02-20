@@ -41,14 +41,14 @@
 									"RelationshipDelta(Hugo)": "0, 1",
 									"Relationship(Player)": "0, 1",
 									"Relationship(Mabel)": "0, 1",
-									"Relationship(Ernest)": "-2, 1",
-									"Relationship(Kimberly)": "1, 1",
-									"Relationship(Teri)": "-2, 1",
-									"Relationship(Julian)": "-2, 1",
+									"Relationship(Ernest)": "-10, 1",
+									"Relationship(Kimberly)": "5, 1",
+									"Relationship(Teri)": "-10, 1",
+									"Relationship(Julian)": "-10, 1",
 									"Relationship(Helen)": "0, 1",
-									"Relationship(Joanne)": "2, 1",
-									"Relationship(Arnold)": "1, 1",
-									"Relationship(Hugo)": "2, 1",
+									"Relationship(Joanne)": "10, 1",
+									"Relationship(Arnold)": "5, 1",
+									"Relationship(Hugo)": "10, 1",
 									"Late(Pat)": "False, 1"
 								}
 						}

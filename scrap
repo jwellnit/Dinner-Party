@@ -1,151 +1,501 @@
 ,
 {
-  "Action": "Speak(InsultArnold, *, MildNegative, *)",
+  "Action": "Speak(TellDislikeArnold, *, MildPositive, *)",
   "Target": "Player",
   "Layer": "-",
   "Conditions":
     {
-      "Set": ["DialogueState(Player) = InsultArnold", "Mood(SELF) >= 5", "Relationship(Arnold) > 0"]
-    },
-  "Priority": 5
-},
-{
-  "Action": "Speak(InsultArnold, *, MildNegative, *)",
-  "Target": "Player",
-  "Layer": "-",
-  "Conditions":
-    {
-      "Set": ["DialogueState(Player) = InsultArnold", "Mood(SELF) > 0", "Relationship(Player) > 0", "Relationship(Arnold) > 0"]
-    },
-  "Priority": 5
-},
-{
-  "Action": "Speak(InsultArnold, *, MildNegative, *)",
-  "Target": "Player",
-  "Layer": "-",
-  "Conditions":
-    {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) >= 25", "Relationship(Player) > 1", "Relationship(Arnold) > 0"]
-    },
-  "Priority": 5
-},
-{
-  "Action": "Speak(InsultArnold, *, MildNegative, *)",
-  "Target": "Player",
-  "Layer": "-",
-  "Conditions":
-    {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) >= 50", "Relationship(Arnold) > 0"]
-    },
-  "Priority": 5
-},
-{
-  "Action": "Speak(InsultArnold, *, StrongNegative, *)",
-  "Target": "Player",
-  "Layer": "-",
-  "Conditions":
-    {
-      "Set": ["DialogueState(Player) = InsultArnold", "Mood(SELF) > 0", "Relationship(Arnold) > 0"]
-    },
-  "Priority": 4
-},
-{
-  "Action": "Speak(InsultArnold, *, StrongNegative, *)",
-  "Target": "Player",
-  "Layer": "-",
-  "Conditions":
-    {
-      "Set": ["DialogueState(Player) = InsultArnold", "Relationship(Player) > 0", "Relationship(Arnold) > 0"]
-    },
-  "Priority": 4
-},
-{
-  "Action": "Speak(InsultArnold, *, StrongNegative, *)",
-  "Target": "Player",
-  "Layer": "-",
-  "Conditions":
-    {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) >= 25", "Relationship(Arnold) > 0"]
-    },
-  "Priority": 4
-},
-{
-  "Action": "Speak(InsultArnold, *, ComplimentAgent, *)",
-  "Target": "Player",
-  "Layer": "-",
-  "Conditions":
-    {
-      "Set": ["DialogueState(Player) = InsultArnold", "Relationship(Arnold) > 0"]
+      "Set": ["DialogueState(Player) = TellIsultArnold", "Relationship(Arnold) <= -3", "Mood(SELF) > 0"]
     },
   "Priority": 3
 },
 {
-  "Action": "Speak(InsultArnold, *, MildPositive, *)",
+  "Action": "Speak(TellDislikeArnold, *, MildNegative, *)",
   "Target": "Player",
   "Layer": "-",
   "Conditions":
     {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 75", "Relationship(Arnold) < 0"]
+      "Set": ["DialogueState(Player) = TellIsultArnold", "Relationship(Arnold) > -3", "Mood(SELF) > 0"]
     },
   "Priority": 3
 },
 {
-  "Action": "Speak(InsultArnold, *, MildPositive, *)",
+  "Action": "Speak(TellDislikeArnold, *, MildNegative, *)",
   "Target": "Player",
   "Layer": "-",
   "Conditions":
     {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 75", "Relationship(Player) > 0", "Relationship(Arnold) <= 0"]
+      "Set": ["DialogueState(Player) = TellIsultArnold", "Relationship(Arnold) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
     },
   "Priority": 3
 },
 {
-  "Action": "Speak(InsultArnold, *, StrongPositive, *)",
+  "Action": "Speak(TellDislikeArnold, *, StrongNegative, *)",
   "Target": "Player",
   "Layer": "-",
   "Conditions":
     {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 50", "Relationship(Arnold) < -1"]
+      "Set": ["DialogueState(Player) = TellIsultArnold", "Relationship(Arnold) > -3", "Mood(SELF) < 0"]
     },
   "Priority": 4
 },
 {
-  "Action": "Speak(InsultArnold, *, StrongPositive, *)",
+  "Action": "Speak(TellDislikeArnold, *, InsultAgent, *)",
   "Target": "Player",
   "Layer": "-",
   "Conditions":
     {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 50", "Relationship(Player) > 0", "Relationship(Arnold) < 0"]
+      "Set": ["DialogueState(Player) = TellIsultArnold", "Relationship(Arnold) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
+    },
+  "Priority": 5
+},
+{
+  "Action": "Speak(TellDislikeErnest, *, MildPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultErnest", "Relationship(Ernest) <= -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeErnest, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultErnest", "Relationship(Ernest) > -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeErnest, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultErnest", "Relationship(Ernest) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeErnest, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultErnest", "Relationship(Ernest) > -3", "Mood(SELF) < 0"]
     },
   "Priority": 4
 },
 {
-  "Action": "Speak(InsultArnold, *, InsultAgent, *)",
+  "Action": "Speak(TellDislikeErnest, *, InsultAgent, *)",
   "Target": "Player",
   "Layer": "-",
   "Conditions":
     {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 25", "Relationship(Player) > 0", "Relationship(Arnold) < 0", "Mood(SELF) > 0"]
+      "Set": ["DialogueState(Player) = TellIsultErnest", "Relationship(Ernest) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
     },
   "Priority": 5
 },
 {
-  "Action": "Speak(InsultArnold, *, InsultAgent, *)",
+  "Action": "Speak(TellDislikeHelen, *, MildPositive, *)",
   "Target": "Player",
   "Layer": "-",
   "Conditions":
     {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 25", "Relationship(Arnold) < -1", "Mood(SELF) > 0"]
+      "Set": ["DialogueState(Player) = TellIsultHelen", "Relationship(Helen) <= -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeHelen, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultHelen", "Relationship(Helen) > -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeHelen, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultHelen", "Relationship(Helen) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeHelen, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultHelen", "Relationship(Helen) > -3", "Mood(SELF) < 0"]
+    },
+  "Priority": 4
+},
+{
+  "Action": "Speak(TellDislikeHelen, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultHelen", "Relationship(Helen) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
     },
   "Priority": 5
 },
 {
-  "Action": "Speak(InsultArnold, *, InsultAgent, *)",
+  "Action": "Speak(TellDislikeHugo, *, MildPositive, *)",
   "Target": "Player",
   "Layer": "-",
   "Conditions":
     {
-      "Set": ["DialogueState(Player) = InsultArnold", "PersonalityFactor(SELF, Agreeableness) < 25", "Relationship(Arnold) < 0", "Mood(SELF) >= 5"]
+      "Set": ["DialogueState(Player) = TellIsultHugo", "Relationship(Hugo) <= -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeHugo, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultHugo", "Relationship(Hugo) > -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeHugo, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultHugo", "Relationship(Hugo) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeHugo, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultHugo", "Relationship(Hugo) > -3", "Mood(SELF) < 0"]
+    },
+  "Priority": 4
+},
+{
+  "Action": "Speak(TellDislikeHugo, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultHugo", "Relationship(Hugo) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
+    },
+  "Priority": 5
+},
+{
+  "Action": "Speak(TellDislikeJoanne, *, MildPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJoanne", "Relationship(Joanne) <= -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeJoanne, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJoanne", "Relationship(Joanne) > -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeJoanne, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJoanne", "Relationship(Joanne) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeJoanne, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJoanne", "Relationship(Joanne) > -3", "Mood(SELF) < 0"]
+    },
+  "Priority": 4
+},
+{
+  "Action": "Speak(TellDislikeJoanne, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJoanne", "Relationship(Joanne) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
+    },
+  "Priority": 5
+},
+{
+  "Action": "Speak(TellDislikeJulian, *, MildPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJulian", "Relationship(Julian) <= -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeJulian, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJulian", "Relationship(Julian) > -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeJulian, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJulian", "Relationship(Julian) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeJulian, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJulian", "Relationship(Julian) > -3", "Mood(SELF) < 0"]
+    },
+  "Priority": 4
+},
+{
+  "Action": "Speak(TellDislikeJulian, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultJulian", "Relationship(Julian) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
+    },
+  "Priority": 5
+},
+{
+  "Action": "Speak(TellDislikeKimberly, *, MildPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultKimberly", "Relationship(Kimberly) <= -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeKimberly, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultKimberly", "Relationship(Kimberly) > -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeKimberly, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultKimberly", "Relationship(Kimberly) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeKimberly, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultKimberly", "Relationship(Kimberly) > -3", "Mood(SELF) < 0"]
+    },
+  "Priority": 4
+},
+{
+  "Action": "Speak(TellDislikeKimberly, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultKimberly", "Relationship(Kimberly) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
+    },
+  "Priority": 5
+},
+{
+  "Action": "Speak(TellDislikeMabel, *, MildPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultMabel", "Relationship(Mabel) <= -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeMabel, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultMabel", "Relationship(Mabel) > -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeMabel, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultMabel", "Relationship(Mabel) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeMabel, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultMabel", "Relationship(Mabel) > -3", "Mood(SELF) < 0"]
+    },
+  "Priority": 4
+},
+{
+  "Action": "Speak(TellDislikeMabel, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultMabel", "Relationship(Mabel) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
+    },
+  "Priority": 5
+},
+{
+  "Action": "Speak(TellDislikePat, *, MildPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultPat", "Relationship(Pat) <= -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikePat, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultPat", "Relationship(Pat) > -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikePat, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultPat", "Relationship(Pat) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikePat, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultPat", "Relationship(Pat) > -3", "Mood(SELF) < 0"]
+    },
+  "Priority": 4
+},
+{
+  "Action": "Speak(TellDislikePat, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultPat", "Relationship(Pat) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
+    },
+  "Priority": 5
+},
+{
+  "Action": "Speak(TellDislikeTeri, *, MildPositive, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultTeri", "Relationship(Teri) <= -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeTeri, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultTeri", "Relationship(Teri) > -3", "Mood(SELF) > 0"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeTeri, *, MildNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultTeri", "Relationship(Teri) > -3", "PersonalityFactor(SELF, Agreeableness) > 50"]
+    },
+  "Priority": 3
+},
+{
+  "Action": "Speak(TellDislikeTeri, *, StrongNegative, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultTeri", "Relationship(Teri) > -3", "Mood(SELF) < 0"]
+    },
+  "Priority": 4
+},
+{
+  "Action": "Speak(TellDislikeTeri, *, InsultAgent, *)",
+  "Target": "Player",
+  "Layer": "-",
+  "Conditions":
+    {
+      "Set": ["DialogueState(Player) = TellIsultTeri", "Relationship(Teri) <= -3", "Mood(SELF) < 0", "PersonalityFactor(SELF, Agreeableness) < 75"]
     },
   "Priority": 5
 }

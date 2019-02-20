@@ -29,7 +29,7 @@
 								}]
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Complement, [ns], StrongPositive, *), [t])",
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], Surprised, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([t])",
@@ -43,11 +43,39 @@
 								}]
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Complement, [ns], ComplementPlayer, *), [t])",
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], MildPositive, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([t])",
 									"NewValue": 1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], ComplementPlayer, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": 3,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -211,7 +239,7 @@
 								}]
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Insult, [ns], StrongNegative, *), [t])",
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], Surprised, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([t])",
@@ -225,11 +253,39 @@
 								}]
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Insult, [ns], InsultPlayer, *), [t])",
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([t])",
 									"NewValue": -1,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], InsultPlayer, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([t])",
+									"NewValue": -3,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -509,7 +565,7 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([t])",
-									"NewValue": -1,
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -523,7 +579,7 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([t])",
-									"NewValue": -1,
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -534,6 +590,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Arnold])",
@@ -551,6 +663,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -565,7 +733,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Arnold])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -579,7 +789,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Arnold])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Arnold])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -590,6 +842,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Ernest])",
@@ -607,6 +915,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -621,7 +985,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Ernest])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultErnest, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultErnest, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultErnest, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -635,7 +1041,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Ernest])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeErnest, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeErnest, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeErnest, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Ernest])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -646,6 +1094,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Helen])",
@@ -663,6 +1167,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -677,7 +1237,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Helen])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHelen, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHelen, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHelen, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -691,7 +1293,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Helen])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHelen, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHelen, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHelen, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Helen])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -702,6 +1346,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Hugo])",
@@ -719,6 +1419,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -733,7 +1489,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Hugo])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHugo, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHugo, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHugo, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -747,7 +1545,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Hugo])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHugo, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHugo, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHugo, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Hugo])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -758,6 +1598,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Joanne])",
@@ -775,6 +1671,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -789,7 +1741,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Joanne])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJoanne, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJoanne, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJoanne, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -803,7 +1797,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Joanne])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJoanne, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJoanne, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJoanne, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Joanne])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -814,6 +1850,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Julian])",
@@ -831,6 +1923,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -845,7 +1993,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Julian])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJulian, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJulian, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJulian, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -859,7 +2049,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Julian])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJulian, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJulian, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJulian, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Julian])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -870,6 +2102,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Kimberly])",
@@ -887,6 +2175,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -901,7 +2245,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Kimberly])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultKimberly, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultKimberly, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultKimberly, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -915,7 +2301,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Kimberly])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeKimberly, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeKimberly, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeKimberly, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Kimberly])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -926,6 +2354,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Mabel])",
@@ -943,6 +2427,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -957,7 +2497,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Mabel])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultMabel, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultMabel, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultMabel, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -971,7 +2553,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Mabel])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeMabel, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeMabel, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeMabel, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Mabel])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -982,6 +2606,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Pat])",
@@ -999,6 +2679,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -1013,7 +2749,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Pat])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultPat, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultPat, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultPat, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -1027,7 +2805,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Pat])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikePat, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikePat, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikePat, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Pat])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -1038,6 +2858,62 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], ComplementAgent, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], MildNegative, *), [t])",
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Teri])",
@@ -1055,6 +2931,62 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], StrongPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], MildPositive, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": 2,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
 									"NewValue": 1,
 									"ObserverAgent": "[x]"
 								}, 
@@ -1069,7 +3001,49 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Teri])",
-									"NewValue": -1,
+									"NewValue": -5,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultTeri, [ns], StrongNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultTeri, [ns], MildNegative, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
+								}, 
+								{
+									"PropertyName": "DialogueState([x])",
+									"NewValue": "[ns]",
+									"ObserverAgent": "[t]"
+								}]
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultTeri, [ns], Neutral, *), [t])",
+							"value": [
+								{
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": -2,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -1083,7 +3057,7 @@
 							"value": [
 								{
 									"PropertyName": "RelationshipDelta([Teri])",
-									"NewValue": -1,
+									"NewValue": -5,
 									"ObserverAgent": "[x]"
 								}, 
 								{
@@ -1093,562 +3067,44 @@
 								}]
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementArnold, *, *), [t])",
+							"key": "Event(Action-End, [x], Speak(TellDislikeTeri, [ns], StrongNegative, *), [t])",
 							"value": [
 								{
-									"PropertyName": "ComplementedBy(Arnold)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": -4,
+									"ObserverAgent": "[x]"
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementArnold",
+									"NewValue": "[ns]",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeArnold, *, *), [t])",
+							"key": "Event(Action-End, [x], Speak(TellDislikeTeri, [ns], MildNegative, *), [t])",
 							"value": [
 								{
-									"PropertyName": "ComplementedBy(Arnold)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": -3,
+									"ObserverAgent": "[x]"
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikeArnold",
+									"NewValue": "[ns]",
 									"ObserverAgent": "[t]"
 								}]
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultArnold, *, *), [t])",
+							"key": "Event(Action-End, [x], Speak(TellDislikeTeri, [ns], Neutral, *), [t])",
 							"value": [
 								{
-									"PropertyName": "InsultedBy(Arnold)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
+									"PropertyName": "RelationshipDelta([Teri])",
+									"NewValue": -2,
+									"ObserverAgent": "[x]"
 								}, 
 								{
 									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultArnold",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeArnold, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Arnold)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikeArnold",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementErnest, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Ernest)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementErnest",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeErnest, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Ernest)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikeErnest",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultErnest, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Ernest)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultErnest",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeErnest, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Ernest)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikeErnest",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementHelen, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Helen)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementHelen",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeHelen, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Helen)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikeHelen",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultHelen, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Helen)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultHelen",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeHelen, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Helen)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikeHelen",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementHugo, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Hugo)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementHugo",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeHugo, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Hugo)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikeHugo",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultHugo, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Hugo)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultHugo",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeHugo, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Hugo)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikeHugo",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementJoanne, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Joanne)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementJoanne",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeJoanne, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Joanne)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikeJoanne",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultJoanne, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Joanne)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultJoanne",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeJoanne, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Joanne)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikeJoanne",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementJulian, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Julian)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementJulian",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeJulian, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Julian)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikeJulian",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultJulian, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Julian)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultJulian",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeJulian, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Julian)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikeJulian",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementKimberly, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Kimberly)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementKimberly",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeKimberly, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Kimberly)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikeKimberly",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultKimberly, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Kimberly)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultKimberly",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeKimberly, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Kimberly)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikeKimberly",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementMabel, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Mabel)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementMabel",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeMabel, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Mabel)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikeMabel",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultMabel, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Mabel)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultMabel",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeMabel, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Mabel)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikeMabel",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementPat, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Pat)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementPat",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikePat, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Pat)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikePat",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultPat, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Pat)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultPat",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikePat, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Pat)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikePat",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementTeri, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Teri)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellComplementTeri",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeTeri, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "ComplementedBy(Teri)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellLikeTeri",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultTeri, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Teri)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellInsultTeri",
-									"ObserverAgent": "[t]"
-								}]
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeTeri, *, *), [t])",
-							"value": [
-								{
-									"PropertyName": "InsultedBy(Teri)",
-									"NewValue": true,
-									"ObserverAgent": "[t]"
-								}, 
-								{
-									"PropertyName": "DialogueState([x])",
-									"NewValue": "TellDislikeTeri",
+									"NewValue": "[ns]",
 									"ObserverAgent": "[t]"
 								}]
 						}]
@@ -1662,6 +3118,14 @@
 						}, 
 						{
 							"key": "Event(Action-End, [x], Speak(Home, Complement, *, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], Surprised, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Complement, [ns], MildPositive, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1717,6 +3181,14 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], Surprised, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(Insult, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(Insult, [ns], StrongNegative, *), [t])",
 							"value": 2
 						}, 
@@ -1813,7 +3285,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementArnold, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeArnold, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1821,7 +3325,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultArnold, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeArnold, [ns], Neutral, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1829,7 +3357,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementErnest, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeErnest, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1837,7 +3397,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultErnest, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultErnest, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultErnest, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikeErnest, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeErnest, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeErnest, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeErnest, [ns], Neutral, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1845,7 +3429,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHelen, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHelen, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1853,7 +3469,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHelen, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHelen, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHelen, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikeHelen, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHelen, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHelen, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHelen, [ns], Neutral, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1861,7 +3501,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementHugo, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeHugo, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1869,7 +3541,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHugo, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHugo, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultHugo, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikeHugo, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHugo, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHugo, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeHugo, [ns], Neutral, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1877,7 +3573,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJoanne, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJoanne, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1885,7 +3613,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJoanne, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJoanne, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJoanne, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikeJoanne, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJoanne, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJoanne, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJoanne, [ns], Neutral, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1893,7 +3645,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementJulian, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeJulian, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1901,7 +3685,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJulian, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJulian, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultJulian, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikeJulian, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJulian, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJulian, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeJulian, [ns], Neutral, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1909,7 +3717,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementKimberly, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeKimberly, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1917,7 +3757,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultKimberly, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultKimberly, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultKimberly, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikeKimberly, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeKimberly, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeKimberly, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeKimberly, [ns], Neutral, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1925,7 +3789,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementMabel, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeMabel, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1933,7 +3829,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultMabel, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultMabel, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultMabel, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikeMabel, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeMabel, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeMabel, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikeMabel, [ns], Neutral, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1941,7 +3861,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementPat, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikePat, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1949,7 +3901,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultPat, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultPat, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultPat, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikePat, [ns], InsultAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikePat, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikePat, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellDislikePat, [ns], Neutral, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1957,7 +3933,39 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellComplementTeri, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], ComplementAgent, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], StrongPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], MildPositive, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellLikeTeri, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
@@ -1965,167 +3973,31 @@
 							"value": 2
 						}, 
 						{
+							"key": "Event(Action-End, [x], Speak(TellInsultTeri, [ns], StrongNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultTeri, [ns], MildNegative, *), [t])",
+							"value": 2
+						}, 
+						{
+							"key": "Event(Action-End, [x], Speak(TellInsultTeri, [ns], Neutral, *), [t])",
+							"value": 2
+						}, 
+						{
 							"key": "Event(Action-End, [x], Speak(TellDislikeTeri, [ns], InsultAgent, *), [t])",
 							"value": 2
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementArnold, *, *), [t])",
+							"key": "Event(Action-End, [x], Speak(TellDislikeTeri, [ns], StrongNegative, *), [t])",
 							"value": 2
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeArnold, *, *), [t])",
+							"key": "Event(Action-End, [x], Speak(TellDislikeTeri, [ns], MildNegative, *), [t])",
 							"value": 2
 						}, 
 						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultArnold, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeArnold, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementErnest, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeErnest, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultErnest, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeErnest, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementHelen, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeHelen, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultHelen, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeHelen, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementHugo, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeHugo, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultHugo, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeHugo, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementJoanne, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeJoanne, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultJoanne, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeJoanne, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementJulian, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeJulian, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultJulian, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeJulian, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementKimberly, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeKimberly, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultKimberly, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeKimberly, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementMabel, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeMabel, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultMabel, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeMabel, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementPat, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikePat, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultPat, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikePat, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellComplementTeri, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellLikeTeri, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellInsultTeri, *, *), [t])",
-							"value": 2
-						}, 
-						{
-							"key": "Event(Action-End, [x], Speak(Home, TellDislikeTeri, *, *), [t])",
+							"key": "Event(Action-End, [x], Speak(TellDislikeTeri, [ns], Neutral, *), [t])",
 							"value": 2
 						}]
 				}

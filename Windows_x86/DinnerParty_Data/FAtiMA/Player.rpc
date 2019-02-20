@@ -7,7 +7,10 @@
 					"Perspective": "Player",
 					"Knowledge":
 						{
-
+							"SELF":
+								{
+									"DialogueState(Pat)": "Initiate, 1"
+								}
 						}
 				},
 			"BodyName": null,

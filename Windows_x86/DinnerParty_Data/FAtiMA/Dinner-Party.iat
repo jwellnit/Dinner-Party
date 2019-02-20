@@ -8,6 +8,182 @@
 			"CharacterSources": ["Player.rpc", "Pat.rpc", "Arnold.rpc", "Ernest.rpc", "Helen.rpc", "Hugo.rpc", "Joanne.rpc", "Julian.rpc", "Kimberly.rpc", "Mabel.rpc", "Teri.rpc"],
 			"Dialogues": [
 				{
+					"CurrentState": "TellLikeJulian",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Julian",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeJulian",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Julian",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeJulian",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Julian",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Kimberly",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Kimberly",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Kimberly",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Kimberly",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeKimberly",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Kimberly",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Mabel",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Mabel",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Mabel",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Mabel",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikeMabel",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Mabel",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Pat",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Pat",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Pat",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Pat",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
+					"CurrentState": "TellLikePat",
+					"NextState": "Home",
+					"Meaning": "ComplementAgent",
+					"Style": "Pat",
+					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
+					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
+				}, 
+				{
+					"CurrentState": "TellLikeTeri",
+					"NextState": "Home",
+					"Meaning": "MildNegative",
+					"Style": "Teri",
+					"Utterance": "Really? But I don't even like them.",
+					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
+				}, 
+				{
+					"CurrentState": "TellLikeTeri",
+					"NextState": "Home",
+					"Meaning": "Neutral",
+					"Style": "Teri",
+					"Utterance": "Huh, I had no idea.",
+					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
+				}, 
+				{
+					"CurrentState": "TellLikeTeri",
+					"NextState": "Home",
+					"Meaning": "MildPositive",
+					"Style": "Teri",
+					"Utterance": "Oh, that was nice of them.",
+					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
+				}, 
+				{
+					"CurrentState": "TellLikeTeri",
+					"NextState": "Home",
+					"Meaning": "StrongPositive",
+					"Style": "Teri",
+					"Utterance": "Wow, that’s really nice!",
+					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
+				}, 
+				{
 					"CurrentState": "AskArrived",
 					"NextState": "Home",
 					"Meaning": "OnTimeStrongPositive",
@@ -124,8 +300,8 @@
 					"NextState": "Home",
 					"Meaning": "Negative",
 					"Style": "-",
-					"Utterance": "I'm not havig such a great time.",
-					"UtteranceId": "TTS-632B6737DCB3D3553A8960949A23AACC"
+					"Utterance": "I'm not having such a great time.",
+					"UtteranceId": "TTS-79D405447D0B1F2EDDF32FB24C85E12F"
 				}, 
 				{
 					"CurrentState": "AskMood",
@@ -406,6 +582,14 @@
 					"Style": "Teri",
 					"Utterance": "Oh they're great!",
 					"UtteranceId": "TTS-C4508495C1B5E89DA1BD0B0954237446"
+				}, 
+				{
+					"CurrentState": "Complement",
+					"NextState": "Home",
+					"Meaning": "Surprised",
+					"Style": "-",
+					"Utterance": "Oh, uh, thanks.",
+					"UtteranceId": "TTS-975BCEEA7CCEBF9926B6D1C07D6DBD3C"
 				}, 
 				{
 					"CurrentState": "Complement",
@@ -1758,6 +1942,14 @@
 					"Style": "-",
 					"Utterance": "Hey.",
 					"UtteranceId": "TTS-A83E3CE9C182279E7ACCF52F6D313BC9"
+				}, 
+				{
+					"CurrentState": "Insult",
+					"NextState": "Home",
+					"Meaning": "Surprised",
+					"Style": "-",
+					"Utterance": "Oh, I… oh.",
+					"UtteranceId": "TTS-0E094EE980352D09CF8DA3AA13608C8D"
 				}, 
 				{
 					"CurrentState": "Insult",
@@ -4446,182 +4638,6 @@
 					"Style": "Julian",
 					"Utterance": "Huh, I had no idea.",
 					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
-				}, 
-				{
-					"CurrentState": "TellLikeJulian",
-					"NextState": "Home",
-					"Meaning": "MildPositive",
-					"Style": "Julian",
-					"Utterance": "Oh, that was nice of them.",
-					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
-				}, 
-				{
-					"CurrentState": "TellLikeJulian",
-					"NextState": "Home",
-					"Meaning": "StrongPositive",
-					"Style": "Julian",
-					"Utterance": "Wow, that’s really nice!",
-					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
-				}, 
-				{
-					"CurrentState": "TellLikeJulian",
-					"NextState": "Home",
-					"Meaning": "ComplementAgent",
-					"Style": "Julian",
-					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
-					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
-				}, 
-				{
-					"CurrentState": "TellLikeKimberly",
-					"NextState": "Home",
-					"Meaning": "MildNegative",
-					"Style": "Kimberly",
-					"Utterance": "Really? But I don't even like them.",
-					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
-				}, 
-				{
-					"CurrentState": "TellLikeKimberly",
-					"NextState": "Home",
-					"Meaning": "Neutral",
-					"Style": "Kimberly",
-					"Utterance": "Huh, I had no idea.",
-					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
-				}, 
-				{
-					"CurrentState": "TellLikeKimberly",
-					"NextState": "Home",
-					"Meaning": "MildPositive",
-					"Style": "Kimberly",
-					"Utterance": "Oh, that was nice of them.",
-					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
-				}, 
-				{
-					"CurrentState": "TellLikeKimberly",
-					"NextState": "Home",
-					"Meaning": "StrongPositive",
-					"Style": "Kimberly",
-					"Utterance": "Wow, that’s really nice!",
-					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
-				}, 
-				{
-					"CurrentState": "TellLikeKimberly",
-					"NextState": "Home",
-					"Meaning": "ComplementAgent",
-					"Style": "Kimberly",
-					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
-					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
-				}, 
-				{
-					"CurrentState": "TellLikeMabel",
-					"NextState": "Home",
-					"Meaning": "MildNegative",
-					"Style": "Mabel",
-					"Utterance": "Really? But I don't even like them.",
-					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
-				}, 
-				{
-					"CurrentState": "TellLikeMabel",
-					"NextState": "Home",
-					"Meaning": "Neutral",
-					"Style": "Mabel",
-					"Utterance": "Huh, I had no idea.",
-					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
-				}, 
-				{
-					"CurrentState": "TellLikeMabel",
-					"NextState": "Home",
-					"Meaning": "MildPositive",
-					"Style": "Mabel",
-					"Utterance": "Oh, that was nice of them.",
-					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
-				}, 
-				{
-					"CurrentState": "TellLikeMabel",
-					"NextState": "Home",
-					"Meaning": "StrongPositive",
-					"Style": "Mabel",
-					"Utterance": "Wow, that’s really nice!",
-					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
-				}, 
-				{
-					"CurrentState": "TellLikeMabel",
-					"NextState": "Home",
-					"Meaning": "ComplementAgent",
-					"Style": "Mabel",
-					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
-					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
-				}, 
-				{
-					"CurrentState": "TellLikePat",
-					"NextState": "Home",
-					"Meaning": "MildNegative",
-					"Style": "Pat",
-					"Utterance": "Really? But I don't even like them.",
-					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
-				}, 
-				{
-					"CurrentState": "TellLikePat",
-					"NextState": "Home",
-					"Meaning": "Neutral",
-					"Style": "Pat",
-					"Utterance": "Huh, I had no idea.",
-					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
-				}, 
-				{
-					"CurrentState": "TellLikePat",
-					"NextState": "Home",
-					"Meaning": "MildPositive",
-					"Style": "Pat",
-					"Utterance": "Oh, that was nice of them.",
-					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
-				}, 
-				{
-					"CurrentState": "TellLikePat",
-					"NextState": "Home",
-					"Meaning": "StrongPositive",
-					"Style": "Pat",
-					"Utterance": "Wow, that’s really nice!",
-					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
-				}, 
-				{
-					"CurrentState": "TellLikePat",
-					"NextState": "Home",
-					"Meaning": "ComplementAgent",
-					"Style": "Pat",
-					"Utterance": "Wow, that's really nice! I like hanging out with them too!",
-					"UtteranceId": "TTS-02F27B44DEDC33805E2E8A952BC143F3"
-				}, 
-				{
-					"CurrentState": "TellLikeTeri",
-					"NextState": "Home",
-					"Meaning": "MildNegative",
-					"Style": "Teri",
-					"Utterance": "Really? But I don't even like them.",
-					"UtteranceId": "TTS-7C19B9A02500E0DF5DCC37A4B1456EC8"
-				}, 
-				{
-					"CurrentState": "TellLikeTeri",
-					"NextState": "Home",
-					"Meaning": "Neutral",
-					"Style": "Teri",
-					"Utterance": "Huh, I had no idea.",
-					"UtteranceId": "TTS-FD7BC838BA17D513F5CFF6E4F10D5650"
-				}, 
-				{
-					"CurrentState": "TellLikeTeri",
-					"NextState": "Home",
-					"Meaning": "MildPositive",
-					"Style": "Teri",
-					"Utterance": "Oh, that was nice of them.",
-					"UtteranceId": "TTS-38226111F6D40A6B272263B59092CB78"
-				}, 
-				{
-					"CurrentState": "TellLikeTeri",
-					"NextState": "Home",
-					"Meaning": "StrongPositive",
-					"Style": "Teri",
-					"Utterance": "Wow, that’s really nice!",
-					"UtteranceId": "TTS-E551308BA8D0D05D00B85000835627EF"
 				}, 
 				{
 					"CurrentState": "TellLikeTeri",
